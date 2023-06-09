@@ -1,0 +1,51 @@
+{
+  "project": "InjectShell",
+  "Author": "QiuChenly",
+  "Version": 1,
+  "Description": {
+    "desc": "这是一个用于解释说明json对象用途的说明文档。basePublicConfig里面的同名配置如果在AppList里面配置了相同的Key，则优先使用AppList里面的值。",
+    "bridgeFile": "app路径和注入文件路径之间的中间路径，有些app只能注入到/Contents，所以加了这个。",
+    "packageName": "app包名，用来确认App是否存在。",
+    "injectFile": "注入文件的相对app路径的路径",
+    "supportVersion": "支持的版本号，用于大版本号",
+    "supportSubVersion": "更精确的子版本号，用于某些app大版本号不变但是经常变小版本号的陋习",
+    "dobbyFileName": "依赖的第三方库名称"
+  },
+  "basePublicConfig": {
+    "bridgeFile": "/Contents/Frameworks/",
+    "dobbyFileName": "libdobby.dylib"
+  },
+  "AppList": [
+    {
+      "packageName": "com.nssurge.surge-mac",
+      "appBaseLocate": "/Applications/Surge.app",
+      "bridgeFile": "/Contents/Frameworks/",
+      "dobbyFileName": "libdobby.dylib",
+      "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
+      "supportVersion": [
+        "5.1.1"
+      ],
+      "supportSubVersion": [
+        "2239",
+        "2264"
+      ]
+    },
+    {
+      "packageName": "cn.better365.ishot",
+      "injectFile": "PTHotKey.framework/Versions/A/PTHotKey"
+    },
+    {
+      "packageName": "com.firecore.infuse",
+      "injectFile": "GZIP.framework/Versions/A/GZIP"
+    },
+    {
+      "packageName": "com.parallels.desktop.console",
+      "injectFile": "QtXml.framework/Versions/5/QtXml",
+      "supportSubVersion": [
+        "53606",
+        "53488",
+        "53614"
+      ]
+    }
+  ]
+}
