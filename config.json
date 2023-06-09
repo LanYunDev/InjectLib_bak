@@ -9,7 +9,8 @@
     "injectFile": "注入文件的相对app路径的路径",
     "supportVersion": "支持的版本号，用于大版本号",
     "supportSubVersion": "更精确的子版本号，用于某些app大版本号不变但是经常变小版本号的陋习",
-    "dobbyFileName": "依赖的第三方库名称"
+    "dobbyFileName": "依赖的第三方库名称",
+    "extraShell": "额外的执行shell，比如PD18需要执行一些额外的shell，支持自定义。"
   },
   "basePublicConfig": {
     "bridgeFile": "/Contents/Frameworks/",
@@ -41,6 +42,7 @@
     {
       "packageName": "com.parallels.desktop.console",
       "injectFile": "QtXml.framework/Versions/5/QtXml",
+      "extraShell": "pd.sh",
       "supportSubVersion": [
         "53606",
         "53488",

@@ -74,6 +74,7 @@ def main
     injectFile = app['injectFile']
     supportVersion = app['supportVersion']
     supportSubVersion = app['supportSubVersion']
+    extraShell = app['extraShell']
 
     localApp = install_apps.select { |_app| _app['CFBundleIdentifier'] == packageName }
     next if localApp.empty?
@@ -132,7 +133,9 @@ def main
     sh = "sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true"
     system sh
 
-    system "sudo sh #{current}/tool/pd.sh"
+    unless extraShell.nil?
+      system "sudo sh #{current}/tool/" + extraShell
+    end
   }
 end
 
