@@ -4,10 +4,13 @@
 
 # App兼容性
 ### 本补丁仅支持以下App的ARM64/X86版本：
-1. iShot 2.3.4 商店最新版
+1. iShot 2.3.4
 2. Infuse Pro 通杀
 3. Parallels Desktop 18.3.1
 4. Surge Pro 5.1.1 2264
+5. CleanMyMac X 4.13.4 
+6. MWEB Pro 通杀
+7. App Cleaner & Uninstaller 8.2 已支持macOS 14
 
 ### 提示：
 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。

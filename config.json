@@ -38,6 +38,19 @@
     {
       "packageName": "com.firecore.infuse",
       "injectFile": "GZIP.framework/Versions/A/GZIP"
+    },{
+      "packageName": "com.coderforart.MWeb3",
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle"
+    },{
+      "packageName": "com.nektony.App-Cleaner-SIII",
+      "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager"
+    },
+    {
+      "packageName": "com.macpaw.CleanMyMac4",
+      "injectFile": "Announcements.framework/Versions/A/Announcements",
+      "supportVersion": [
+        "4.13.4"
+      ]
     },
     {
       "packageName": "com.parallels.desktop.console",
