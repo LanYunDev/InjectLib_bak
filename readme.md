@@ -12,10 +12,11 @@
 6. MWEB Pro 通杀
 7. App Cleaner & Uninstaller 8.2 已支持macOS 14
 8. 解优2 1.6.1 通杀
+9. Adobe PhotoShop 24.5 
 
 ### 仅支持Intel版本: 因为官方没有做M系处理器适配
 1. Navicat Premium 应用商店版通杀
-2. Office Word/PowerPoint/Excel 16.71 应用商店365订阅版
+2. Office Word/PowerPoint/Excel 16.73 应用商店365订阅版
 3. Adobe Illustrator 27.5.0
 
 ### 提示：
