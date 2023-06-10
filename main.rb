@@ -72,7 +72,7 @@ def main
     # puts "本地读取的包名 #{packageName}"
 
     localApp = install_apps.select { |_app| _app['CFBundleIdentifier'] == packageName }
-    if localApp.empty? && !Dir.exist?(appBaseLocate)
+    if localApp.empty? && (appBaseLocate.nil? || !Dir.exist?(appBaseLocate))
       next
     end
 
@@ -89,7 +89,10 @@ def main
     bridgeFile = basePublicConfig['bridgeFile'] if bridgeFile.nil?
     dobbyFileName = basePublicConfig['dobbyFileName'] if dobbyFileName.nil?
 
-    next unless checkCompatible(supportVersion, supportSubVersion, localApp['CFBundleShortVersionString'], localApp['CFBundleVersion'])
+    unless checkCompatible(supportVersion, supportSubVersion, localApp['CFBundleShortVersionString'], localApp['CFBundleVersion'])
+      puts "[😅] [#{localApp['CFBundleName']}] - [#{localApp['CFBundleShortVersionString']}] - [#{localApp['CFBundleIdentifier']}]不是受支持的版本，跳过注入😋。\n"
+      next
+    end
 
     puts "[🤔] [#{localApp['CFBundleName']}] - [#{localApp['CFBundleShortVersionString']}] - [#{localApp['CFBundleIdentifier']}]是受支持的版本，是否需要注入？y/n(默认n)\n"
     action = gets.chomp
