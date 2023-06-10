@@ -18,6 +18,7 @@
 1. Navicat Premium 应用商店版通杀
 2. Office Word/PowerPoint/Excel 16.73 应用商店365订阅版
 3. Adobe Illustrator 27.5.0
+4. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户
 
 ### 提示：
 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。
