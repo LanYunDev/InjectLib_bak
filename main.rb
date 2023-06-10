@@ -3,42 +3,37 @@ require 'fileutils'
 require './Utils'
 require 'rexml/document'
 require 'pathname'
+require 'shellwords'
 include REXML
+
+def readPrototypeKey(file, keyName)
+  link = Shellwords.escape(file)
+  %x{defaults read #{link} #{keyName}}.chomp
+end
+
+def parseAppInfo(appBaseLocate, appInfoFile)
+  appInfo = {}
+  appInfo['appBaseLocate'] = "#{appBaseLocate}"
+  appInfo['CFBundleIdentifier'] = readPrototypeKey appInfoFile, 'CFBundleIdentifier'
+  appInfo['CFBundleVersion'] = readPrototypeKey appInfoFile, 'CFBundleVersion'
+  appInfo['CFBundleShortVersionString'] = readPrototypeKey appInfoFile, 'CFBundleShortVersionString'
+  appInfo['CFBundleName'] = readPrototypeKey appInfoFile, 'CFBundleExecutable'
+  appInfo
+end
 
 def scan_apps
   applist = []
   baseDir = '/Applications'
   lst = Dir.glob("#{baseDir}/*")
   lst.each do |app|
-    dir = "#{app}/Contents/Info.plist"
-    next unless File.exist?(dir)
-
-    # puts dir
-    appInfo = {}
-
-    appInfo['appBaseLocate'] = "#{app}"
-
-    f = File.open(dir, 'r')
-    xml_content = f.read
-    f.close
-
+    appInfoFile = "#{app}/Contents/Info.plist"
+    next unless File.exist?(appInfoFile)
     begin
-      plist = Document.new(xml_content)
+      applist.push parseAppInfo app, appInfoFile
+      # puts "检查本地App: #{appInfoFile}"
     rescue StandardError
       next
     end
-    root = plist.root
-
-    root.elements.each('dict/key') do |element|
-      key = element.text
-      value = element.next_element.text
-
-      appInfo['CFBundleIdentifier'] = value if key == 'CFBundleIdentifier'
-      appInfo['CFBundleVersion'] = value if key == 'CFBundleVersion'
-      appInfo['CFBundleShortVersionString'] = value if key == 'CFBundleShortVersionString'
-      appInfo['CFBundleName'] = value if key == 'CFBundleName'
-    end
-    applist.push appInfo
   end
   applist
 end
@@ -76,8 +71,17 @@ def main
     supportSubVersion = app['supportSubVersion']
     extraShell = app['extraShell']
 
+    # puts "本地读取的包名 #{packageName}"
+
     localApp = install_apps.select { |_app| _app['CFBundleIdentifier'] == packageName }
-    next if localApp.empty?
+    if localApp.empty? && !Dir.exist?(appBaseLocate)
+      next
+    end
+
+    if localApp.empty?
+      # puts "读取的是 #{appBaseLocate + "/Contents/Info.plist"}"
+      localApp.push(parseAppInfo appBaseLocate, appBaseLocate + "/Contents/Info.plist")
+    end
 
     localApp = localApp[0]
     if appBaseLocate.nil?
@@ -88,7 +92,7 @@ def main
 
     next unless checkCompatible(supportVersion, supportSubVersion, localApp['CFBundleShortVersionString'], localApp['CFBundleVersion'])
 
-    puts "App[#{localApp['CFBundleName']}]符合定义的版本，是否需要注入？y/n\n"
+    puts "App[#{localApp['CFBundleName']}] - [#{localApp['CFBundleIdentifier']}]是受支持的版本，是否需要注入？y/n\n"
     action = gets.chomp
     next if action != 'y'
     puts "开始注入App: #{packageName}"
@@ -119,12 +123,13 @@ def main
     end
 
     current = Pathname.new(File.dirname(__FILE__)).realpath
+    current = Shellwords.escape(current)
     # set shell +x permission
     sh = "chmod +x #{current}/tool/insert_dylib"
     # puts sh
     system sh
-    backup = backup.gsub(" ", "\\ ")
-    dest = dest.gsub(" ", "\\ ")
+    backup = Shellwords.escape(backup)
+    dest = Shellwords.escape(dest)
     sh = "sudo #{current}/tool/insert_dylib #{current}/tool/libInjectLib.dylib #{backup} #{dest}"
     # puts sh
     system sh

@@ -10,7 +10,8 @@
     "supportVersion": "支持的版本号，用于大版本号",
     "supportSubVersion": "更精确的子版本号，用于某些app大版本号不变但是经常变小版本号的陋习",
     "dobbyFileName": "依赖的第三方库名称",
-    "extraShell": "额外的执行shell，比如PD18需要执行一些额外的shell，支持自定义。"
+    "extraShell": "额外的执行shell，比如PD18需要执行一些额外的shell，支持自定义。",
+    "forceInject": "如果设为true 则不会去读取App的info.plist文件，需要事先提供好 appBaseLocate 和版本号"
   },
   "basePublicConfig": {
     "bridgeFile": "/Contents/Frameworks/",
@@ -23,13 +24,8 @@
       "bridgeFile": "/Contents/Frameworks/",
       "dobbyFileName": "libdobby.dylib",
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
-      "supportVersion": [
-        "5.1.1"
-      ],
-      "supportSubVersion": [
-        "2239",
-        "2264"
-      ]
+      "supportVersion": ["5.1.1"],
+      "supportSubVersion": ["2239", "2264"]
     },
     {
       "packageName": "cn.better365.ishot",
@@ -38,29 +34,66 @@
     {
       "packageName": "com.firecore.infuse",
       "injectFile": "GZIP.framework/Versions/A/GZIP"
-    },{
+    },
+    {
       "packageName": "com.coderforart.MWeb3",
       "injectFile": "Sparkle.framework/Versions/B/Sparkle"
-    },{
+    },
+    {
       "packageName": "com.nektony.App-Cleaner-SIII",
       "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager"
     },
     {
       "packageName": "com.macpaw.CleanMyMac4",
       "injectFile": "Announcements.framework/Versions/A/Announcements",
-      "supportVersion": [
-        "4.13.4"
-      ]
+      "supportVersion": ["4.13.4"]
     },
     {
       "packageName": "com.parallels.desktop.console",
       "injectFile": "QtXml.framework/Versions/5/QtXml",
       "extraShell": "pd.sh",
-      "supportSubVersion": [
-        "53606",
-        "53488",
-        "53614"
-      ]
+      "supportSubVersion": ["53606", "53488", "53614"]
+    },
+    {
+      "packageName": "com.artdesktop.bestzip2",
+      "injectFile": "JSONModel.framework/Versions/A/JSONModel"
+    },
+    {
+      "packageName": "com.navicat.NavicatPremium",
+      "injectFile": "NAVTabBarView.framework/Versions/A/NAVTabBarView"
+    },
+    {
+      "packageName": "com.adobe.Photoshop",
+      "appBaseLocate": "/Applications/Adobe Photoshop (Beta)/Adobe Photoshop (Beta).app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["24.6.0"]
+    },
+    {
+      "packageName": "com.adobe.illustrator",
+      "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["27.5.0"]
+    },
+    {
+      "packageName": "com.microsoft.Excel",
+      "appBaseLocate": "/Applications/Microsoft Excel.app",
+      "injectFile": "FluentUI.framework/Versions/A/FluentUI",
+      "forceInject": "true",
+      "supportVersion": ["16.73"]
+    },
+    {
+      "packageName": "com.microsoft.Powerpoint",
+      "appBaseLocate": "/Applications/Microsoft PowerPoint.app",
+      "injectFile": "FluentUI.framework/Versions/A/FluentUI",
+      "forceInject": "true",
+      "supportVersion": ["16.73"]
+    },
+    {
+      "packageName": "com.microsoft.Word",
+      "appBaseLocate": "/Applications/Microsoft Word.app",
+      "injectFile": "FluentUI.framework/Versions/A/FluentUI",
+      "forceInject": "true",
+      "supportVersion": ["16.73"]
     }
   ]
 }
