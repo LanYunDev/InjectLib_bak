@@ -68,6 +68,12 @@
       "supportVersion": ["24.7.0"]
     },
     {
+      "packageName": "com.adobe.Photoshop",
+      "appBaseLocate": "/Applications/Adobe Photoshop 2023/Adobe Photoshop 2023.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["24.5.0"]
+    },
+    {
       "packageName": "com.adobe.illustrator",
       "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",

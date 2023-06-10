@@ -49,8 +49,8 @@ def checkCompatible(compatibleVersionCode, compatibleVersionSubCode, appVersionC
 end
 
 def main
-  puts "==== 自动注入脚本开始执行 ====\n"
-  puts " \tDesign By QiuChenly"
+  puts "====\t自动注入脚本开始执行 ====\n"
+  puts "\tDesign By QiuChenly"
   puts "注入时请根据提示输入。\n"
 
   install_apps = scan_apps
@@ -77,6 +77,7 @@ def main
     end
 
     if localApp.empty?
+      puts "[🔔] 此App包不是常见类型结构，请注意当前App注入的路径是 #{appBaseLocate}"
       # puts "读取的是 #{appBaseLocate + "/Contents/Info.plist"}"
       localApp.push(parseAppInfo appBaseLocate, appBaseLocate + "/Contents/Info.plist")
     end
@@ -90,7 +91,7 @@ def main
 
     next unless checkCompatible(supportVersion, supportSubVersion, localApp['CFBundleShortVersionString'], localApp['CFBundleVersion'])
 
-    puts "App[#{localApp['CFBundleName']}] - [#{localApp['CFBundleIdentifier']}]是受支持的版本，是否需要注入？y/n\n"
+    puts "[🤔] [#{localApp['CFBundleName']}] - [#{localApp['CFBundleShortVersionString']}] - [#{localApp['CFBundleIdentifier']}]是受支持的版本，是否需要注入？y/n(默认n)\n"
     action = gets.chomp
     next if action != 'y'
     puts "开始注入App: #{packageName}"
@@ -107,7 +108,7 @@ def main
     backup = dest + "_backup"
 
     if File.exist? backup
-      puts "备份的注入文件已经存在,需要直接用这个文件注入吗？y/n(y)\n"
+      puts "备份的注入文件已经存在,需要直接用这个文件注入吗？y/n(默认y)\n"
       action = gets.chomp
       # action = 'y'
       if action == 'n'
