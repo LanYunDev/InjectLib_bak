@@ -1,10 +1,8 @@
 require 'json'
 require 'fileutils'
 require './Utils'
-require 'rexml/document'
 require 'pathname'
 require 'shellwords'
-include REXML
 
 def readPrototypeKey(file, keyName)
   link = Shellwords.escape(file)
