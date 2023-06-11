@@ -82,7 +82,7 @@
       "packageName": "com.adobe.Acrobat.Pro",
       "appBaseLocate": "/Applications/Adobe Acrobat DC/Adobe Acrobat.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["23.001.20177"]
+      "supportVersion": ["23.001.20177","23.003.20201"]
     },
     {
       "packageName": "com.microsoft.Excel",
