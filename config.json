@@ -78,6 +78,11 @@
       "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "supportVersion": ["27.5.0"]
+    },{
+      "packageName": "com.adobe.Acrobat.Pro",
+      "appBaseLocate": "/Applications/Adobe Acrobat DC/Adobe Acrobat.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["23.001.20177"]
     },
     {
       "packageName": "com.microsoft.Excel",
