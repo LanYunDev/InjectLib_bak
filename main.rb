@@ -49,6 +49,16 @@ def checkCompatible(compatibleVersionCode, compatibleVersionSubCode, appVersionC
 end
 
 def main
+
+  puts "Environment Prepare Setting..."
+
+  ret = %x{csrutil status}.chomp
+  # System Integrity Protection status: disabled.
+  unless ret.include?("status: disabled")
+    puts "给老子把你那个b SIP关了先！是不是关SIP犯法？\n要求里写了要先关SIP，能不能认真看看我写的说明？\n如果你看了还没关，说明你确实是SB\n如果你没看说明，那你更SB。"
+    return
+  end
+
   puts "====\t自动注入脚本开始执行 ====\n"
   puts "\tDesign By QiuChenly"
   puts "注入时请根据提示输入。\n"
