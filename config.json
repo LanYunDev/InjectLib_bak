@@ -83,6 +83,16 @@
       "appBaseLocate": "/Applications/Adobe Acrobat DC/Adobe Acrobat.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "supportVersion": ["23.001.20177","23.003.20201"]
+    },{
+      "packageName": "com.adobe.distiller",
+      "appBaseLocate": "/Applications/Adobe Acrobat DC/Acrobat Distiller.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["23.003.20201"]
+    },{
+      "packageName": "com.adobe.LightroomClassicCC7",
+      "appBaseLocate": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": ["12.3"]
     },
     {
       "packageName": "com.microsoft.Excel",
