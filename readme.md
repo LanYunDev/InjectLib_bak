@@ -13,13 +13,13 @@
 7. App Cleaner & Uninstaller 8.2 已支持macOS 14
 8. 解优2 1.6.1 通杀
 9. Adobe PhotoShop 24.5 
-10. Adobe Acrobat 23.003.20201
+10. Adobe Acrobat 23.003.20201 
+11. Adobe Illustrator 27.6.1
 
-### 仅支持Intel版本: 因为官方没有做M系处理器适配
+### 仅支持Intel版本: 有些App我没有M版本二进制
 1. Navicat Premium 应用商店版通杀
 2. Office Word/PowerPoint/Excel 16.73 应用商店365订阅版
-3. Adobe Illustrator 27.5.0
-4. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户
+3. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户
 
 ### 提示：
 1. 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。
