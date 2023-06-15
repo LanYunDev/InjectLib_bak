@@ -23,7 +23,7 @@
 
 ### 提示：
 1. 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。
-2. Adobe App如果不想让官方ACC乱拉屎，可以用这个仓库下载v6版本的离线安装包: https://github.com/Antibioticss/adobe-packager, 然后配合AntiCC之类的组件运行Adobe产品。
+2. Adobe App如果不想让官方ACC乱拉屎，可以用这个仓库下载v6版本的离线安装包: https://github.com/Drovosek01/adobe-packager, 然后配合AntiCC之类的组件运行Adobe产品。
 
 ### 警告
 一定要关闭SIP，因为我使用的注入方式依赖于关闭SIP。
