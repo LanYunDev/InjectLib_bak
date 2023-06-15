@@ -98,17 +98,21 @@
     {
       "packageName": "com.microsoft.Excel",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.73"]
+      "supportVersion": ["16.74"]
     },
     {
       "packageName": "com.microsoft.Powerpoint",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.73"]
+      "supportVersion": ["16.74"]
     },
     {
       "packageName": "com.microsoft.Word",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.73"]
+      "supportVersion": ["16.74"]
+    },{
+      "packageName": "com.microsoft.Outlook",
+      "injectFile": "FluentUI.framework/Versions/A/FluentUI",
+      "supportVersion": ["16.74"]
     },
     {
       "packageName": "com.mac.utility.screen.recorder",
