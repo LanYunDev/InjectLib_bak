@@ -9,19 +9,16 @@
     "injectFile": "注入文件的相对app路径的路径",
     "supportVersion": "支持的版本号，用于大版本号 如果不提供任意版本号则直接无条件注入",
     "supportSubVersion": "更精确的子版本号，用于某些app大版本号不变但是经常变小版本号的陋习",
-    "dobbyFileName": "依赖的第三方库名称",
     "extraShell": "额外的执行shell，比如PD18需要执行一些额外的shell，支持自定义。"
   },
   "basePublicConfig": {
     "bridgeFile": "/Contents/Frameworks/",
-    "dobbyFileName": "libdobby.dylib"
   },
   "AppList": [
     {
       "packageName": "com.nssurge.surge-mac",
       "appBaseLocate": "/Applications/Surge.app",
       "bridgeFile": "/Contents/Frameworks/",
-      "dobbyFileName": "libdobby.dylib",
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
       "supportVersion": ["5.1.1","5.2.0"],
       "supportSubVersion": ["2239", "2264", "2269"]
@@ -118,6 +115,14 @@
       "packageName": "com.mac.utility.screen.recorder",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "OmniRecorder"
+    },{
+      "packageName": [
+        "com.seriflabs.affinityphoto2",
+        "com.seriflabs.affinitydesigner2",
+        "com.seriflabs.affinitypublisher2"
+      ],
+      "injectFile": "liblibzlib.dylib",
+      "supportVersion": ["2.1.0"]
     }
   ]
 }

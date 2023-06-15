@@ -69,17 +69,30 @@ def main
   config = JSON.parse config
   basePublicConfig = config['basePublicConfig']
   appList = config['AppList']
-  appList.each { |app|
+
+  #prepare resolve package lst
+  appLst = []
+  appList.each do |app|
+    packageName = app['packageName']
+    if packageName.is_a?(Array)
+      packageName.each { |name|
+        tmp = app.dup
+        tmp['packageName'] = name
+        appLst.push tmp
+      }
+    else
+      appLst.push app
+    end
+  end
+
+  appLst.each { |app|
     packageName = app['packageName']
     appBaseLocate = app['appBaseLocate']
     bridgeFile = app['bridgeFile']
-    dobbyFileName = app['dobbyFileName']
     injectFile = app['injectFile']
     supportVersion = app['supportVersion']
     supportSubVersion = app['supportSubVersion']
     extraShell = app['extraShell']
-
-    # puts "本地读取的包名 #{packageName}"
 
     localApp = install_apps.select { |_app| _app['CFBundleIdentifier'] == packageName }
     if localApp.empty? && (appBaseLocate.nil? || !Dir.exist?(appBaseLocate))
@@ -97,7 +110,6 @@ def main
       appBaseLocate = localApp['appBaseLocate']
     end
     bridgeFile = basePublicConfig['bridgeFile'] if bridgeFile.nil?
-    dobbyFileName = basePublicConfig['dobbyFileName'] if dobbyFileName.nil?
 
     unless checkCompatible(supportVersion, supportSubVersion, localApp['CFBundleShortVersionString'], localApp['CFBundleVersion'])
       puts "[😅] [#{localApp['CFBundleName']}] - [#{localApp['CFBundleShortVersionString']}] - [#{localApp['CFBundleIdentifier']}]不是受支持的版本，跳过注入😋。\n"
@@ -109,13 +121,6 @@ def main
     next if action != 'y'
     puts "开始注入App: #{packageName}"
     lib = appBaseLocate + bridgeFile
-
-    FileUtils.copy("./tool/" + dobbyFileName, lib + dobbyFileName)
-
-    unless File.exist?(lib + dobbyFileName)
-      puts "文件 #{dobbyFileName} 复制失败，取消注入。请使用管理员权限重试。"
-      next
-    end
 
     dest = appBaseLocate + bridgeFile + injectFile
     backup = dest + "_backup"
