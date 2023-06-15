@@ -16,10 +16,11 @@
 10. Adobe Acrobat 23.003.20201 
 11. Adobe Illustrator 27.6.1
 12. Navicat Premium 16.1.10～通杀 需要从Mac AppStore 下载
+13. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户<br/>
+    目前支持最新版 Adobe Photoshop 版本: 24.7.0 20230612.m.2205 9cfa76c  x64
 
 ### 仅支持Intel版本: 有些App我没有M版本二进制
 1. Office Word/PowerPoint/Excel 16.73 应用商店365订阅版
-2. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户
 
 ### 提示：
 1. 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。
