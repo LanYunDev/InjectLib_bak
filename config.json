@@ -29,7 +29,7 @@
     {
       "packageName": "cn.better365.ishot",
       "injectFile": "PTHotKey.framework/Versions/A/PTHotKey",
-      "supportVersion": ["2.3.4"]
+      "supportVersion": ["2.3.5"]
     },
     {
       "packageName": "com.firecore.infuse",

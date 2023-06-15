@@ -4,7 +4,7 @@
 
 # App兼容性
 ### 支持以下App的M系和Intel版本：
-1. iShot 2.3.4
+1. iShot 2.3.5
 2. Infuse Pro 通杀
 3. Parallels Desktop 18.3.1
 4. Surge Pro 5.1.1 2264
@@ -12,14 +12,14 @@
 6. MWEB Pro 通杀
 7. App Cleaner & Uninstaller 8.2 已支持macOS 14
 8. 解优2 1.6.1 通杀
-9. Adobe PhotoShop 24.5 
+9. Adobe PhotoShop 24.5 暂时没有Patch神经滤镜
 10. Adobe Acrobat 23.003.20201 
 11. Adobe Illustrator 27.6.1
+12. Navicat Premium 16.1.10～通杀 需要从Mac AppStore 下载
 
 ### 仅支持Intel版本: 有些App我没有M版本二进制
-1. Navicat Premium 应用商店版通杀
-2. Office Word/PowerPoint/Excel 16.73 应用商店365订阅版
-3. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户
+1. Office Word/PowerPoint/Excel 16.73 应用商店365订阅版
+2. Adobe PhotoShop Beta 24.7 支持创意填充 需要随便登录个账户
 
 ### 提示：
 1. 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。
