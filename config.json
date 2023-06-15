@@ -109,6 +109,11 @@
       "packageName": "com.microsoft.Word",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
       "supportVersion": ["16.73"]
+    },
+    {
+      "packageName": "com.mac.utility.screen.recorder",
+      "bridgeFile": "/Contents/MacOS/",
+      "injectFile": "OmniRecorder"
     }
   ]
 }
