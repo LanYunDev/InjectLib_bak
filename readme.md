@@ -7,8 +7,8 @@
 1. iShot 2.3.5
 2. Infuse Pro 通杀
 3. Parallels Desktop 18.3.1
-4. Surge Pro 5.1.1 2264
-5. CleanMyMac X 4.13.4 
+4. Surge Pro 5.2.0 2269
+5. CleanMyMac X 4.13.4, 4.14.0b1 测试版
 6. MWEB Pro 通杀
 7. App Cleaner & Uninstaller 8.2 已支持macOS 14
 8. 解优2 1.6.1 通杀

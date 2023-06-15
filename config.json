@@ -23,8 +23,8 @@
       "bridgeFile": "/Contents/Frameworks/",
       "dobbyFileName": "libdobby.dylib",
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
-      "supportVersion": ["5.1.1"],
-      "supportSubVersion": ["2239", "2264"]
+      "supportVersion": ["5.1.1","5.2.0"],
+      "supportSubVersion": ["2239", "2264", "2269"]
     },
     {
       "packageName": "cn.better365.ishot",
@@ -46,7 +46,7 @@
     {
       "packageName": "com.macpaw.CleanMyMac4",
       "injectFile": "Announcements.framework/Versions/A/Announcements",
-      "supportVersion": ["4.13.4"]
+      "supportVersion": ["4.13.4","4.14.0b1"]
     },
     {
       "packageName": "com.parallels.desktop.console",
