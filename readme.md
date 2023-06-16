@@ -10,6 +10,8 @@
 - 目标部署平台 macOS 10.13
 - CMakeLists 环境变量
     - set(CMAKE_OSX_DEPLOYMENT_TARGET "10.13")
+- 检查二进制文件的最低macOS版本兼容性
+    - ```find . -name "*.*" | xargs otool -l | grep -E "(minos|sdk)"```
 
 # App兼容性
 
@@ -30,6 +32,7 @@
 | Navicat Premium                                | 16.1.10～通杀           |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
 | Microsoft Office Word/PowerPoint/Excel/Outlook | 16.74 365订阅版         |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.0                |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
+| ProxyMan                                       | 4.8.0                |   ✅   |   ✅   |                    |
 
 | Adobe 全家桶            | 版本                                 | ARM64 | Intel | 特殊说明                  |
 |:---------------------|:-----------------------------------|:-----:|:-----:|:----------------------|
