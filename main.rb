@@ -120,7 +120,6 @@ def main
     action = gets.chomp
     next if action != 'y'
     puts "开始注入App: #{packageName}"
-    lib = appBaseLocate + bridgeFile
 
     dest = appBaseLocate + bridgeFile + injectFile
     backup = dest + "_backup"

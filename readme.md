@@ -26,6 +26,7 @@
 | App Cleaner & Uninstaller                      | 8.2                  |   ✅   |   ✅   |                    | 
 | 解优2                                            | 1.6.1~通杀             |   ✅   |   ✅   |                    | 
 | Omi录屏专家                                        | 1.3.1~通杀             |   ✅   |   ✅   | 需要从Mac AppStore 下载 | 
+| OmniPlayer                                     | 2.1.0~通杀             |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
 | Navicat Premium                                | 16.1.10～通杀           |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
 | Microsoft Office Word/PowerPoint/Excel/Outlook | 16.74 365订阅版         |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.0                |   ✅   |   ✅   | 需要从Mac AppStore 下载 |

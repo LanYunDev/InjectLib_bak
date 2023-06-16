@@ -12,7 +12,7 @@
     "extraShell": "额外的执行shell，比如PD18需要执行一些额外的shell，支持自定义。"
   },
   "basePublicConfig": {
-    "bridgeFile": "/Contents/Frameworks/",
+    "bridgeFile": "/Contents/Frameworks/"
   },
   "AppList": [
     {
@@ -115,6 +115,10 @@
       "packageName": "com.mac.utility.screen.recorder",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "OmniRecorder"
+    },
+    {
+      "packageName": "com.mac.utility.media.player",
+      "injectFile": "XADMaster.framework/Versions/A/XADMaster"
     },{
       "packageName": [
         "com.seriflabs.affinityphoto2",
