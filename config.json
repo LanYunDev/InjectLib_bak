@@ -119,6 +119,11 @@
     {
       "packageName": "com.mac.utility.media.player",
       "injectFile": "XADMaster.framework/Versions/A/XADMaster"
+    },
+    {
+      "packageName": "com.proxyman.NSProxy",
+      "injectFile": "Moya.framework/Versions/A/Moya",
+      "supportVersion": ["4.8.0"]
     },{
       "packageName": [
         "com.seriflabs.affinityphoto2",
