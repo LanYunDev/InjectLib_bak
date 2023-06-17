@@ -21,7 +21,7 @@
       "bridgeFile": "/Contents/Frameworks/",
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
       "supportVersion": ["5.1.1","5.2.0"],
-      "supportSubVersion": ["2239", "2264", "2269"]
+      "supportSubVersion": ["2239", "2264", "2269", "2274"]
     },
     {
       "packageName": "cn.better365.ishot",
@@ -124,6 +124,9 @@
       "packageName": "com.proxyman.NSProxy",
       "injectFile": "Moya.framework/Versions/A/Moya",
       "supportVersion": ["4.8.0"]
+    },{
+      "packageName": "com.apphousekitchen.aldente-pro",
+      "injectFile": "Sparkle.framework/Versions/A/Sparkle"
     },{
       "packageName": [
         "com.seriflabs.affinityphoto2",

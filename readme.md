@@ -22,7 +22,7 @@
 | iShot                                          | 2.3.5                |   ✅   |   ✅   |                    | 
 | Infuse Pro                                     | 通杀                   |   ✅   |   ✅   |                    | 
 | Parallels Desktop                              | 18.3.1               |   ✅   |   ✅   |                    | 
-| Surge                                          | 5.2.0 2269           |   ✅   |   ✅   |                    | 
+| Surge                                          | 5.2.0 2274           |   ✅   |   ✅   |                    | 
 | CleanMyMac X                                   | 4.13.4, 4.14.0b1 测试版 |   ✅   |   ✅   | 不要下大陆特供版           | 
 | MWEB Pro                                       | 通杀                   |   ✅   |   ✅   |                    | 
 | App Cleaner & Uninstaller                      | 8.2                  |   ✅   |   ✅   |                    | 
