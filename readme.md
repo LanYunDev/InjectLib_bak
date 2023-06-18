@@ -1,9 +1,21 @@
-# 命令行版本注入工具使用方法
+<!-- TOC -->
+* [使用](#使用)
+* [环境](#环境)
+* [App兼容](#app兼容)
+    * [支持以下App的M系和Intel版本：](#支持以下app的m系和intel版本)
+* [Surge Paddle系脚本](#surge-paddle系脚本)
+* [提示：](#提示)
+* [警告](#警告)
+* [交流](#交流)
+<!-- TOC -->
+
+# 使用
 
 1. 终端进入本文件夹
 2. 执行 sudo ruby main.rb 启动注入程序。
 
-# 最低操作系统要求&代码编译环境
+# 环境
+代码运行最低操作系统要求&此代码编译环境
 
 - 最低运行 macOS High Sierra 10.13
 - 编译SDK macOS 14.0
@@ -13,7 +25,7 @@
 - 检查二进制文件的最低macOS版本兼容性
     - ```find . -name "*.*" | xargs otool -l | grep -E "(minos|sdk)"```
 
-# App兼容性
+# App兼容
 
 ### 支持以下App的M系和Intel版本：
 
@@ -22,7 +34,7 @@
 | iShot                                          | 2.3.5                |   ✅   |   ✅   |                    | 
 | Infuse Pro                                     | 通杀                   |   ✅   |   ✅   |                    | 
 | Parallels Desktop                              | 18.3.1               |   ✅   |   ✅   |                    | 
-| Surge                                          | 5.2.0 2274           |   ✅   |   ✅   |                    | 
+| Surge                                          | 5.2.0 2276           |   ✅   |   ✅   |                    | 
 | CleanMyMac X                                   | 4.13.4, 4.14.0b1 测试版 |   ✅   |   ✅   | 不要下大陆特供版           | 
 | MWEB Pro                                       | 通杀                   |   ✅   |   ✅   |                    | 
 | App Cleaner & Uninstaller                      | 8.2                  |   ✅   |   ✅   |                    | 
@@ -41,12 +53,35 @@
 | Adobe Acrobat        | 23.003.20201                       |   ✅   |   ✅   |                       |
 | Adobe Illustrator    | 27.6.1                             |   ✅   |   ✅   |                       |
 
-### 提示：
+# Surge Paddle系脚本
+Surge 最新版地址: https://dl.nssurge.com/mac/v5/Surge-5.2.0-2276-ab78f10c80e6018bad6e296da4db3ba0.zip <br>
+Surge开启MitM和脚本功能，然后在你的配置文件中加入例子中提供文件中的Script字段信息:
+[Surge脚本配置例子.conf](Surge%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%2FSurge%E8%84%9A%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%BE%8B%E5%AD%90.conf)
+![img.png](imgs/img.png)
+![img_1.png](imgs/img_1.png)
+![img_2.png](imgs/img_2.png)
+
+脚本复制到conf文件所在目录中。
+在App中随意输入序列号和邮箱，点击激活后秒激活。
+
+已测试支持以下App:
+
+| App         | 版本    | 特殊说明 |
+|:------------|:------|:-----|
+| AlDente Pro | 1.22  |      |
+| AirBuddy    | 2.6.3 |      |
+
+
+# 提示
 
 1. 会自动扫描本地安装的App，你只需要在想注入的App后面输入y即可。
 2. Adobe App如果不想让官方ACC乱拉屎，可以用这个仓库下载v6版本的离线安装包: https://github.com/Drovosek01/adobe-packager,
    然后配合AntiCC之类的组件运行Adobe产品。
 
-### 警告
+# 警告
 
 一定要关闭SIP，因为我使用的注入方式依赖于关闭SIP。
+
+# 交流
+别让欲望击穿你の意志
+QQGroup: 718372160
