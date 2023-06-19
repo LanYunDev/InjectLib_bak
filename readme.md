@@ -1,10 +1,10 @@
 <!-- TOC -->
 * [使用](#使用)
 * [环境](#环境)
-* [App兼容](#app兼容)
+* [兼容](#兼容)
     * [支持以下App的M系和Intel版本：](#支持以下app的m系和intel版本)
 * [Surge Paddle系脚本](#surge-paddle系脚本)
-* [提示：](#提示)
+* [提示](#提示)
 * [警告](#警告)
 * [交流](#交流)
 <!-- TOC -->
@@ -25,7 +25,7 @@
 - 检查二进制文件的最低macOS版本兼容性
     - ```find . -name "*.*" | xargs otool -l | grep -E "(minos|sdk)"```
 
-# App兼容
+# 兼容
 
 ### 支持以下App的M系和Intel版本：
 
@@ -55,17 +55,20 @@
 
 # Surge Paddle系脚本
 Surge 最新版地址: https://dl.nssurge.com/mac/v5/Surge-5.2.0-2276-ab78f10c80e6018bad6e296da4db3ba0.zip <br>
-Surge开启MitM和脚本功能，然后在你的配置文件中加入例子中提供文件中的Script字段信息:
+Surge开启MitM和脚本功能，然后:
+
+1. 在你的配置文件中加入例子中提供文件中的Script字段信息:
 [Surge脚本配置例子.conf](Surge%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%2FSurge%E8%84%9A%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%BE%8B%E5%AD%90.conf)
 ![img.png](imgs/img.png)
 ![img_1.png](imgs/img_1.png)
-![img_2.png](imgs/img_2.png)
+![img_1.png](imgs/img_2.png)
 
-脚本复制到conf文件所在目录中。
+2. [paddle_act.js](Surge%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%2Fpaddle_act.js)这个文件一定要复制到conf文件所在目录中。
 
-Https解密打开，并且信任证书，MitM域名加入*.paddleapi.com保存即可。
+3. 记得Https解密打开，并且信任证书，MitM域名加入*.paddleapi.com保存即可。
+![img.png](imgs/img3.png)
 
-在App中随意输入序列号和邮箱，点击激活后秒激活。
+4. 在App中随意输入序列号和邮箱，点击激活后秒激活。
 
 已测试支持以下App:
 
