@@ -54,14 +54,16 @@ def main
 
   ret = %x{csrutil status}.chomp
   # System Integrity Protection status: disabled.
-  unless ret.include?("status: disabled")
-    puts "给老子把你那个b SIP关了先！是不是关SIP犯法？\n要求里写了要先关SIP，能不能认真看看我写的说明？\n如果你看了还没关，说明你确实是SB\n如果你没看说明，那你更SB。"
+  unless ret.include?("status: enabled")
+    puts "给老子把你那个b SIP关了先！是不是关SIP犯法？\n要求里写了要先关SIP，能不能认真看看我写的说明？\n如果你看了还没关，说明你确实是SB\n如果你没看说明，那你更SB。\nWhatever，U ARE SB。"
     return
   end
 
   puts "====\t自动注入脚本开始执行 ====\n"
-  puts "\tDesign By QiuChenly"
-  puts "注入时请根据提示输入。\n"
+  puts "====\tAutomatic Inject Script Checking... ====\n"
+  puts "== Design By QiuChenly#github.com/qiuchenly"
+  puts "注入时请根据提示输入'y' 或者按下回车键跳过这一项。\n"
+  puts "When i find useful options, pls follow my prompts enter 'y' or press enter key to jump that item.\n"
 
   install_apps = scan_apps
 
@@ -101,6 +103,7 @@ def main
 
     if localApp.empty?
       puts "[🔔] 此App包不是常见类型结构，请注意当前App注入的路径是 #{appBaseLocate}"
+      puts "[🔔] This App Folder is not common struct,pls attention now inject into the app path is #{appBaseLocate}"
       # puts "读取的是 #{appBaseLocate + "/Contents/Info.plist"}"
       localApp.push(parseAppInfo appBaseLocate, appBaseLocate + "/Contents/Info.plist")
     end
@@ -125,7 +128,8 @@ def main
     backup = dest + "_backup"
 
     if File.exist? backup
-      puts "备份的注入文件已经存在,需要直接用这个文件注入吗？y/n(默认y)\n"
+      puts "备份的原始文件已经存在,需要直接用这个文件注入吗？y/n(默认y)\n"
+      puts "Find Previous Target File Backup, Are u use it inject？y/n(default is y)\n"
       action = gets.chomp
       # action = 'y'
       if action == 'n'
