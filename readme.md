@@ -49,14 +49,14 @@
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.0                |   ✅   |   ✅   | 需要从Mac AppStore 下载 |
 | ProxyMan                                       | 4.8.0                |   ✅   |   ✅   |                    |
 
-| Adobe 全家桶            | 版本                                        | ARM64 | Intel | 特殊说明                               |
-|:---------------------|:------------------------------------------|:-----:|:-----:|:-----------------------------------|
-| Adobe PhotoShop      | 24.6                                      |   ❌   |   ✅   | 暂时没有Patch神经滤镜                      |
-| Adobe PhotoShop Beta | 24.7.0 24.7.0 20230612.m.2205 9cfa76c x64 |   ✅   |   ✅   | 支持创意填充/神经滤镜 需要随便登录个账户 出现弹窗关掉继续用就行了 |
-| Adobe Acrobat        | 23.003.20201                              |   ✅   |   ✅   |                                    |
-| Adobe Illustrator    | 27.6.1                                    |   ✅   |   ✅   |                                    |
-| Adobe Lightroom      | 12.4                                      |   ✅   |   ✅   |                                    |
-| Adobe Premiere Pro   | 23.5                                      |   ❌   |   ✅   | 哪儿有M1版本的？官方就没支持吧？                  |
+| Adobe 全家桶               | 版本                                 | ARM64 | Intel | 特殊说明                               |
+|:------------------------|:-----------------------------------|:-----:|:-----:|:-----------------------------------|
+| Adobe PhotoShop         | 24.6                               |   ❌   |   ✅   | 暂时没有Patch神经滤镜                      |
+| Adobe PhotoShop Beta    | 24.7.0 20230612.m.2205 9cfa76c x64 |   ✅   |   ✅   | 支持创意填充/神经滤镜 需要随便登录个账户 出现弹窗关掉继续用就行了 |
+| Adobe Acrobat           | 23.003.20201                       |   ✅   |   ✅   |                                    |
+| Adobe Illustrator       | 27.6.1                             |   ✅   |   ✅   |                                    |
+| Adobe Lightroom Classic | 12.4                               |   ✅   |   ✅   |                                    |
+| Adobe Premiere Pro      | 23.5                               |   ❌   |   ✅   | 哪儿有M1版本的？官方就没支持吧？                  |
 
 # Surge Paddle系脚本
 
