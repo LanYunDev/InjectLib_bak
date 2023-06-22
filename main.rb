@@ -54,7 +54,7 @@ def main
 
   ret = %x{csrutil status}.chomp
   # System Integrity Protection status: disabled.
-  unless ret.include?("status: enabled")
+  if ret.include?("status: enabled")
     puts "给老子把你那个b SIP关了先！是不是关SIP犯法？\n要求里写了要先关SIP，能不能认真看看我写的说明？\n如果你看了还没关，说明你确实是SB\n如果你没看说明，那你更SB。\nWhatever，U ARE SB。"
     return
   end
