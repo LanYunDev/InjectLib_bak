@@ -20,13 +20,23 @@
       "appBaseLocate": "/Applications/Surge.app",
       "bridgeFile": "/Contents/Frameworks/",
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
-      "supportVersion": ["5.1.1","5.2.0"],
-      "supportSubVersion": ["2239", "2264", "2269", "2274"]
+      "supportVersion": [
+        "5.1.1",
+        "5.2.0"
+      ],
+      "supportSubVersion": [
+        "2239",
+        "2264",
+        "2269",
+        "2274"
+      ]
     },
     {
       "packageName": "cn.better365.ishot",
       "injectFile": "PTHotKey.framework/Versions/A/PTHotKey",
-      "supportVersion": ["2.3.5"]
+      "supportVersion": [
+        "2.3.5"
+      ]
     },
     {
       "packageName": "com.firecore.infuse",
@@ -43,13 +53,20 @@
     {
       "packageName": "com.macpaw.CleanMyMac4",
       "injectFile": "Announcements.framework/Versions/A/Announcements",
-      "supportVersion": ["4.13.4","4.14.0b1"]
+      "supportVersion": [
+        "4.13.4",
+        "4.14.0b1"
+      ]
     },
     {
       "packageName": "com.parallels.desktop.console",
       "injectFile": "QtXml.framework/Versions/5/QtXml",
       "extraShell": "pd.sh",
-      "supportSubVersion": ["53606", "53488", "53614"]
+      "supportSubVersion": [
+        "53606",
+        "53488",
+        "53614"
+      ]
     },
     {
       "packageName": "com.artdesktop.bestzip2",
@@ -63,53 +80,89 @@
       "packageName": "com.adobe.Photoshop",
       "appBaseLocate": "/Applications/Adobe Photoshop (Beta)/Adobe Photoshop (Beta).app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["24.7.0"]
+      "supportVersion": [
+        "24.7.0"
+      ]
     },
     {
       "packageName": "com.adobe.Photoshop",
       "appBaseLocate": "/Applications/Adobe Photoshop 2023/Adobe Photoshop 2023.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["24.5.0"]
+      "supportVersion": [
+        "24.5.0",
+        "24.6.0"
+      ]
     },
     {
       "packageName": "com.adobe.illustrator",
       "appBaseLocate": "/Applications/Adobe Illustrator 2023/Adobe Illustrator.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["27.5.0","27.6.1"]
+      "supportVersion": [
+        "27.5.0",
+        "27.6.1"
+      ]
     },{
+      "packageName": "com.adobe.PremierePro.23",
+      "appBaseLocate": "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app",
+      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
+      "supportVersion": [
+        "23.5"
+      ]
+    },
+    {
       "packageName": "com.adobe.Acrobat.Pro",
       "appBaseLocate": "/Applications/Adobe Acrobat DC/Adobe Acrobat.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["23.001.20177","23.003.20201"]
-    },{
+      "supportVersion": [
+        "23.001.20177",
+        "23.003.20201"
+      ]
+    },
+    {
       "packageName": "com.adobe.distiller",
       "appBaseLocate": "/Applications/Adobe Acrobat DC/Acrobat Distiller.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["23.003.20201"]
-    },{
+      "supportVersion": [
+        "23.003.20201"
+      ]
+    },
+    {
       "packageName": "com.adobe.LightroomClassicCC7",
       "appBaseLocate": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app",
-      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": ["12.3"]
+      "injectFile": "AgUI.framework/Versions/A/AgUI",
+      "supportVersion": [
+        "12.3",
+        "12.4"
+      ]
     },
     {
       "packageName": "com.microsoft.Excel",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.74"]
+      "supportVersion": [
+        "16.74"
+      ]
     },
     {
       "packageName": "com.microsoft.Powerpoint",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.74"]
+      "supportVersion": [
+        "16.74"
+      ]
     },
     {
       "packageName": "com.microsoft.Word",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.74"]
-    },{
+      "supportVersion": [
+        "16.74"
+      ]
+    },
+    {
       "packageName": "com.microsoft.Outlook",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
-      "supportVersion": ["16.74"]
+      "supportVersion": [
+        "16.74",
+        "16.74.1"
+      ]
     },
     {
       "packageName": "com.mac.utility.screen.recorder",
@@ -123,18 +176,24 @@
     {
       "packageName": "com.proxyman.NSProxy",
       "injectFile": "Moya.framework/Versions/A/Moya",
-      "supportVersion": ["4.8.0"]
-    },{
+      "supportVersion": [
+        "4.8.0"
+      ]
+    },
+    {
       "packageName": "com.apphousekitchen.aldente-pro",
       "injectFile": "Sparkle.framework/Versions/A/Sparkle"
-    },{
+    },
+    {
       "packageName": [
         "com.seriflabs.affinityphoto2",
         "com.seriflabs.affinitydesigner2",
         "com.seriflabs.affinitypublisher2"
       ],
       "injectFile": "liblibzlib.dylib",
-      "supportVersion": ["2.1.0"]
+      "supportVersion": [
+        "2.1.0"
+      ]
     }
   ]
 }
