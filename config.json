@@ -73,7 +73,10 @@
       "injectFile": "JSONModel.framework/Versions/A/JSONModel"
     },
     {
-      "packageName": "com.navicat.NavicatPremium",
+      "packageName": [
+        "com.navicat.NavicatPremium",
+        "com.navicat.NavicatForOracle"
+      ],
       "injectFile": "NAVTabBarView.framework/Versions/A/NAVTabBarView"
     },
     {
@@ -101,7 +104,8 @@
         "27.5.0",
         "27.6.1"
       ]
-    },{
+    },
+    {
       "packageName": "com.adobe.PremierePro.23",
       "appBaseLocate": "/Applications/Adobe Premiere Pro 2023/Adobe Premiere Pro 2023.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
