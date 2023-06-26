@@ -183,7 +183,8 @@
       "packageName": "com.proxyman.NSProxy",
       "injectFile": "Moya.framework/Versions/A/Moya",
       "supportVersion": [
-        "4.8.0"
+        "4.8.0",
+        "4.8.1"
       ]
     },
     {
