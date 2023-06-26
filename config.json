@@ -22,13 +22,15 @@
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
       "supportVersion": [
         "5.1.1",
-        "5.2.0"
+        "5.2.0",
+        "5.2.1"
       ],
       "supportSubVersion": [
         "2239",
         "2264",
         "2269",
-        "2274"
+        "2274",
+        "2303"
       ]
     },
     {
