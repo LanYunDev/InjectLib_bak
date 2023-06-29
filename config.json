@@ -188,10 +188,6 @@
       ]
     },
     {
-      "packageName": "com.apphousekitchen.aldente-pro",
-      "injectFile": "Sparkle.framework/Versions/A/Sparkle"
-    },
-    {
       "packageName": [
         "com.seriflabs.affinityphoto2",
         "com.seriflabs.affinitydesigner2",
@@ -200,6 +196,22 @@
       "injectFile": "liblibzlib.dylib",
       "supportVersion": [
         "2.1.0"
+      ]
+    },
+    {
+      "packageName": "com.panic.transmit.mas",
+      "injectFile": "ZipZap.framework/Versions/A/ZipZap",
+      "supportVersion": [
+        "5.9.2"
+      ]
+    },
+    {
+      "packageName": "com.wiheads.paste",
+      "bridgeFile": "/Contents/MacOS/",
+      "extraShell": "paste.sh",
+      "injectFile": "Paste",
+      "supportVersion": [
+        "4.0.1"
       ]
     }
   ]

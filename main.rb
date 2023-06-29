@@ -153,7 +153,7 @@ def main
     sh = "sudo #{current}/tool/insert_dylib #{current}/tool/libInjectLib.dylib #{backup} #{dest}"
     # puts sh
     system sh
-    sh = "codesign -f -s - #{dest}"
+    sh = "codesign -f -s - --timestamp=none --all-architectures #{dest}"
     system sh
     sh = "sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true"
     system sh

@@ -1,0 +1,1 @@
+tccutil reset All com.wiheads.paste
