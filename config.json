@@ -211,7 +211,8 @@
       "extraShell": "paste.sh",
       "injectFile": "Paste",
       "supportVersion": [
-        "4.0.1"
+        "4.0.1",
+        "4.0.2"
       ]
     }
   ]
