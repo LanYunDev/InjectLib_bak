@@ -19,28 +19,16 @@
       "packageName": "com.nssurge.surge-mac",
       "appBaseLocate": "/Applications/Surge.app",
       "bridgeFile": "/Contents/Frameworks/",
-      "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
-      "extraShell": "surge.sh",
-      "supportVersion": [
-        "5.1.1",
-        "5.2.0",
-        "5.2.1"
-      ],
-      "supportSubVersion": [
-        "2239",
-        "2264",
-        "2269",
-        "2274",
-        "2303",
-        "2309"
-      ]
+      "injectFile": "Bugsnag.framework/Versions/A/Bugsnag",
+      "extraShell": "surge.sh"
     },
     {
       "packageName": "cn.better365.ishot",
       "injectFile": "PTHotKey.framework/Versions/A/PTHotKey",
       "supportVersion": [
         "2.3.5",
-        "2.3.6"
+        "2.3.6",
+        "2.3.7"
       ]
     },
     {
@@ -70,7 +58,8 @@
       "supportSubVersion": [
         "53606",
         "53488",
-        "53614"
+        "53614",
+        "53621"
       ]
     },
     {
@@ -124,7 +113,8 @@
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "supportVersion": [
         "23.001.20177",
-        "23.003.20201"
+        "23.003.20201",
+        "23.003.20215"
       ]
     },
     {
@@ -187,7 +177,8 @@
       "injectFile": "Moya.framework/Versions/A/Moya",
       "supportVersion": [
         "4.8.0",
-        "4.8.1"
+        "4.8.1",
+        "4.8.2"
       ]
     },
     {
@@ -198,7 +189,8 @@
       ],
       "injectFile": "liblibzlib.dylib",
       "supportVersion": [
-        "2.1.0"
+        "2.1.0",
+        "2.1.1"
       ]
     },
     {
@@ -215,7 +207,8 @@
       "injectFile": "Paste",
       "supportVersion": [
         "4.0.1",
-        "4.0.2"
+        "4.0.2",
+        "4.0.3"
       ]
     }
   ]

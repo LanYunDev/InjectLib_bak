@@ -1,4 +1,5 @@
 <!-- TOC -->
+
 * [停更](#停更)
 * [使用](#使用)
 * [环境](#环境)
@@ -8,6 +9,7 @@
 * [提示](#提示)
 * [警告](#警告)
 * [交流](#交流)
+
 <!-- TOC -->
 
 # 停更
@@ -49,23 +51,23 @@
 
 ### 支持以下App的M系和Intel版本：
 
-| App                                            | 版本                   | ARM64 | Intel | 特殊要求                            |
-|:-----------------------------------------------|:---------------------|:-----:|:-----:|:--------------------------------|
-| iShot                                          | 2.3.6                |   ✅   |   ✅   |                                 | 
-| Infuse Pro                                     | 通杀                   |   ✅   |   ✅   |                                 | 
-| Parallels Desktop                              | 18.3.1               |   ✅   |   ✅   |                                 | 
-| Surge 5                                        | 通杀                   |   ✅   |   ✅   |                                 | 
-| CleanMyMac X                                   | 4.13.4, 4.14.0b1 测试版 |   ✅   |   ✅   | 不要下大陆特供版                        | 
-| MWEB Pro                                       | 通杀                   |   ✅   |   ✅   |                                 | 
-| App Cleaner & Uninstaller                      | 8.2                  |   ✅   |   ✅   |                                 | 
-| 解优2                                            | 1.6.1~通杀             |   ✅   |   ✅   |                                 | 
-| Omi录屏专家                                        | 1.3.1~通杀             |   ✅   |   ✅   | 需要从Mac AppStore 下载              | 
-| OmniPlayer                                     | 2.1.0~通杀             |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| Navicat Premium                                | 16.1.10～通杀           |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| Navicat 16 ForOracle                           | 16.2.4～通杀            |   ❌   |   ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
-| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.74.1 365订阅版       |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.0                |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| ProxyMan                                       | 4.8.1                |   ✅   |   ✅   |                                 |
+| App                                            | 版本              | ARM64 | Intel | 特殊要求                                   |
+|:-----------------------------------------------|:----------------|:-----:|:-----:|:---------------------------------------|
+| iShot                                          | 2.3.7           |   ✅   |   ✅   |                                        | 
+| Infuse Pro                                     | 通杀              |   ✅   |   ✅   |                                        | 
+| Parallels Desktop                              | 18.3.2          |   ✅   |   ✅   |                                        | 
+| Surge 5                                        | 通杀已经被内鬼举办了，RIP。 |   ❌   |   ❌   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》                 | 
+| CleanMyMac X                                   | 4.13.4/4.14.0b1 |   ✅   |   ✅   | 不要下大陆特供版                               | 
+| MWEB Pro                                       | 通杀              |   ✅   |   ✅   |                                        | 
+| App Cleaner & Uninstaller                      | 8.2             |   ✅   |   ✅   |                                        | 
+| 解优2                                            | 1.6.1~通杀        |   ✅   |   ✅   |                                        | 
+| Omi录屏专家                                        | 1.3.1~通杀        |   ✅   |   ✅   | 需要从Mac AppStore 下载                     | 
+| OmniPlayer                                     | 2.1.0~通杀        |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
+| Navicat Premium                                | 16.1.10～通杀      |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
+| Navicat 16 ForOracle                           | 16.2.4～通杀       |   ❌   |   ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本        |
+| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.74.1 365订阅版  |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
+| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1           |   ❔   |   ❔   | 需要从Mac AppStore 下载 自行测试后提有效/无效报告 我没有安装 |
+| ProxyMan                                       | 4.8.2           |   ✅   |   ✅   |                                        |
 
 | Adobe 全家桶               | 版本                                 | ARM64 | Intel | 特殊说明                               |
 |:------------------------|:-----------------------------------|:-----:|:-----:|:-----------------------------------|
@@ -73,8 +75,8 @@
 | Adobe PhotoShop Beta    | 24.7.0 20230612.m.2205 9cfa76c x64 |   ✅   |   ✅   | 支持创意填充/神经滤镜 需要随便登录个账户 出现弹窗关掉继续用就行了 |
 | Adobe Acrobat           | 23.003.20201                       |   ✅   |   ✅   |                                    |
 | Adobe Illustrator       | 27.6.1                             |   ✅   |   ✅   |                                    |
-| Adobe Lightroom Classic | 12.4                               |   ✅   |   ✅   |                                    |
-| Adobe Premiere Pro      | 23.5                               |   ❌   |   ✅   | 哪儿有M1版本的？官方就没支持吧？                  |
+| Adobe Lightroom Classic | 12.4                               |   ❌   |   ❌   | 功能不可用 等后续更新                        |
+| Adobe Premiere Pro      | 23.5                               |   ❔   |   ❔   | M1/x86版本灰度测试 测试报告有效/无效 我没有安装       |
 
 # Surge Paddle系脚本
 
