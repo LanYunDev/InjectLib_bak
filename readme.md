@@ -65,15 +65,15 @@
 | OmniPlayer                                     | 2.1.0~通杀        |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
 | Navicat Premium                                | 16.1.10～通杀      |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
 | Navicat 16 ForOracle                           | 16.2.4～通杀       |   ❌   |   ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本        |
-| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.74.2 365订阅版  |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
-| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1           |   ❔   |   ❔   | 需要从Mac AppStore 下载 自行测试后提有效/无效报告 我没有安装 |
+| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75 365订阅版    |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
+| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1           |   ✅   |   ✅   | 需要从Mac AppStore 下载 自行测试后提有效/无效报告 我没有安装 |
 | ProxyMan                                       | 4.8.2           |   ✅   |   ✅   |                                        |
 
 | Adobe 全家桶               | 版本                                 | ARM64 | Intel | 特殊说明                               |
 |:------------------------|:-----------------------------------|:-----:|:-----:|:-----------------------------------|
 | Adobe PhotoShop         | 24.6                               |   ❌   |   ✅   | 暂时没有Patch神经滤镜                      |
-| Adobe PhotoShop Beta    | 24.7.0 20230612.m.2205 9cfa76c x64 |   ✅   |   ✅   | 支持创意填充/神经滤镜 需要随便登录个账户 出现弹窗关掉继续用就行了 |
-| Adobe Acrobat           | 23.003.20201                       |   ✅   |   ✅   |                                    |
+| Adobe PhotoShop Beta    | 24.7.0 20230612.m.2205 9cfa76c x64 |   ❌   |   ❌   | 支持创意填充/神经滤镜 需要随便登录个账户 出现弹窗关掉继续用就行了 |
+| Adobe Acrobat           | 23.003.20215                       |   ✅   |   ✅   |                                    |
 | Adobe Illustrator       | 27.6.1                             |   ✅   |   ✅   |                                    |
 | Adobe Lightroom Classic | 12.4                               |   ❌   |   ❌   | 功能不可用 等后续更新                        |
 | Adobe Premiere Pro      | 23.5                               |   ❔   |   ❔   | M1/x86版本灰度测试 测试报告有效/无效 我没有安装       |

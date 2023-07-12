@@ -138,7 +138,8 @@
       "packageName": "com.microsoft.Excel",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
       "supportVersion": [
-        "16.74"
+        "16.74",
+        "16.75"
       ]
     },
     {
@@ -152,7 +153,8 @@
       "packageName": "com.microsoft.Word",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
       "supportVersion": [
-        "16.74"
+        "16.74",
+        "16.75"
       ]
     },
     {
@@ -161,7 +163,8 @@
       "supportVersion": [
         "16.74",
         "16.74.1",
-        "16.74.2"
+        "16.74.2",
+        "16.75"
       ]
     },
     {
