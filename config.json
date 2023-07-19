@@ -28,7 +28,8 @@
       "supportVersion": [
         "2.3.5",
         "2.3.6",
-        "2.3.7"
+        "2.3.7",
+        "2.3.8"
       ]
     },
     {
@@ -41,14 +42,18 @@
     },
     {
       "packageName": "com.nektony.App-Cleaner-SIII",
-      "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager"
+      "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager",
+      "supportVersion": [
+        "8.2.1"
+      ]
     },
     {
       "packageName": "com.macpaw.CleanMyMac4",
       "injectFile": "Announcements.framework/Versions/A/Announcements",
       "supportVersion": [
         "4.13.4",
-        "4.14.0b1"
+        "4.14.0b1",
+        "4.14.0"
       ]
     },
     {
@@ -122,7 +127,7 @@
       "appBaseLocate": "/Applications/Adobe Acrobat DC/Acrobat Distiller.app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "supportVersion": [
-        "23.003.20201"
+        "_____23.003.20201_____"
       ]
     },
     {
@@ -146,7 +151,8 @@
       "packageName": "com.microsoft.Powerpoint",
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
       "supportVersion": [
-        "16.74"
+        "16.74",
+        "16.75"
       ]
     },
     {
@@ -164,7 +170,8 @@
         "16.74",
         "16.74.1",
         "16.74.2",
-        "16.75"
+        "16.75",
+        "16.75.1"
       ]
     },
     {
@@ -182,7 +189,8 @@
       "supportVersion": [
         "4.8.0",
         "4.8.1",
-        "4.8.2"
+        "4.8.2",
+        "4.9.0"
       ]
     },
     {

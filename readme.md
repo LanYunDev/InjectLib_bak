@@ -53,13 +53,13 @@
 
 | App                                            | 版本              | ARM64 | Intel | 特殊要求                                   |
 |:-----------------------------------------------|:----------------|:-----:|:-----:|:---------------------------------------|
-| iShot                                          | 2.3.7           |   ✅   |   ✅   |                                        | 
+| iShot                                          | 2.3.8           |   ✅   |   ✅   |                                        | 
 | Infuse Pro                                     | 通杀              |   ✅   |   ✅   |                                        | 
 | Parallels Desktop                              | 18.3.2          |   ✅   |   ✅   |                                        | 
 | Surge 5                                        | 通杀已经被内鬼举办了，RIP。 |   ❌   |   ❌   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》                 | 
-| CleanMyMac X                                   | 4.13.4/4.14.0b1 |   ✅   |   ✅   | 不要下大陆特供版                               | 
+| CleanMyMac X                                   | 4.14.0          |   ✅   |   ✅   | 不要下大陆特供版                               | 
 | MWEB Pro                                       | 通杀              |   ✅   |   ✅   |                                        | 
-| App Cleaner & Uninstaller                      | 8.2             |   ✅   |   ✅   |                                        | 
+| App Cleaner & Uninstaller                      | 8.2.1           |   ✅   |   ✅   |                                        | 
 | 解优2                                            | 1.6.1~通杀        |   ✅   |   ✅   |                                        | 
 | Omi录屏专家                                        | 1.3.1~通杀        |   ✅   |   ✅   | 需要从Mac AppStore 下载                     | 
 | OmniPlayer                                     | 2.1.0~通杀        |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
@@ -67,7 +67,7 @@
 | Navicat 16 ForOracle                           | 16.2.4～通杀       |   ❌   |   ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本        |
 | Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75 365订阅版    |   ✅   |   ✅   | 需要从Mac AppStore 下载                     |
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1           |   ✅   |   ✅   | 需要从Mac AppStore 下载 自行测试后提有效/无效报告 我没有安装 |
-| ProxyMan                                       | 4.8.2           |   ✅   |   ✅   |                                        |
+| ProxyMan                                       | 4.9.0           |   ✅   |   ✅   |                                        |
 
 | Adobe 全家桶               | 版本                                 | ARM64 | Intel | 特殊说明                               |
 |:------------------------|:-----------------------------------|:-----:|:-----:|:-----------------------------------|
@@ -80,7 +80,7 @@
 
 # Surge Paddle系脚本
 
-Surge 更新地址: https://www.nssurge.com/mac/v5/appcast-signed-beta.xml
+Surge 更新地址: https://www.nssurge.com/mac/v5/appcast-signed-beta.xml <br>
 Surge 最新版地址: https://dl.nssurge.com/mac/v5/Surge-5.2.1-2303-92c83c5d58a046eae6c06c3e82b77afb.zip <br>
 Surge开启MitM和脚本功能，然后:
 
