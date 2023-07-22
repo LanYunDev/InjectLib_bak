@@ -39,7 +39,7 @@
 | Infuse Pro                                     | 通杀              |   ✅   |   ✅   |                                        | 
 | Parallels Desktop                              | 18.3.2          |   ✅   |   ✅   |                                        | 
 | Surge 5                                        | 通杀已经被内鬼举办了，RIP。 |   ❌   |   ❌   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》                 | 
-| CleanMyMac X                                   | 4.14.0          |   ✅   |   ✅   | 不要下大陆特供版                               | 
+| CleanMyMac X                                   | 4.14.1          |   ✅   |   ✅   | 不要下大陆特供版                               | 
 | MWEB Pro                                       | 通杀              |   ✅   |   ✅   |                                        | 
 | App Cleaner & Uninstaller                      | 8.2.1           |   ✅   |   ✅   |                                        | 
 | 解优2                                            | 1.6.1~通杀        |   ✅   |   ✅   |                                        | 
