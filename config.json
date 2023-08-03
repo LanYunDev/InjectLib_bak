@@ -84,7 +84,7 @@
       "appBaseLocate": "/Applications/Adobe Photoshop (Beta)/Adobe Photoshop (Beta).app",
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "supportVersion": [
-        "24.7.0"
+        "25.0.0"
       ]
     },
     {
