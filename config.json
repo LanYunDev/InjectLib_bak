@@ -93,7 +93,8 @@
       "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
       "supportVersion": [
         "24.5.0",
-        "24.6.0"
+        "24.6.0",
+        "24.7.0"
       ]
     },
     {
@@ -120,15 +121,8 @@
       "supportVersion": [
         "23.001.20177",
         "23.003.20201",
-        "23.003.20215"
-      ]
-    },
-    {
-      "packageName": "com.adobe.distiller",
-      "appBaseLocate": "/Applications/Adobe Acrobat DC/Acrobat Distiller.app",
-      "injectFile": "AdobeAGM.framework/Versions/A/AdobeAGM",
-      "supportVersion": [
-        "_____23.003.20201_____"
+        "23.003.20215",
+        "23.003.20244"
       ]
     },
     {
