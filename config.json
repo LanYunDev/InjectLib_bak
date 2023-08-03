@@ -145,7 +145,8 @@
       "injectFile": "FluentUI.framework/Versions/A/FluentUI",
       "supportVersion": [
         "16.74",
-        "16.75"
+        "16.75",
+        "16.75.2"
       ]
     },
     {
