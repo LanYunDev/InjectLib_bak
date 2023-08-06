@@ -37,10 +37,10 @@
 | iShot                                          | 2.3.8                                                                                               |   ✅   |   ✅   |                                 | 
 | Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   |                                 | 
 | Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   |                                 | 
-| Surge 5                                        | 通杀已经被内鬼举办了，RIP。                                                                                     |   ❌   |   ❌   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
+| Surge 5                                        | 通杀已经被内鬼举办了，RIP。                                                                                     |   ❌   |  ⌛️   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
 | CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | 不要下大陆特供版                        | 
 | MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   |                                 | 
-| App Cleaner & Uninstaller                      | 8.2.1                                                                                               |   ✅   |   ✅   |                                 | 
+| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ARM64懒得弄了                       | 
 | 解优2                                            | 1.6.1~通杀                                                                                            |   ✅   |   ✅   |                                 | 
 | Omi录屏专家                                        | 1.3.1~通杀                                                                                            |   ✅   |   ✅   | 需要从Mac AppStore 下载              | 
 | OmniPlayer                                     | 2.1.0~通杀                                                                                            |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
@@ -52,7 +52,7 @@
 
 | Adobe 全家桶               | 版本                                  | ARM64 | Intel | 特殊说明                                    |
 |:------------------------|:------------------------------------|:-----:|:-----:|:----------------------------------------|
-| Adobe PhotoShop         | 24.7.0                              |  🧐   |   ✅   | ARM 自行测试 我不知道有没有用 PS:神经滤镜已经完美可用         |
+| Adobe PhotoShop         | 24.7.0                              |   ✅   |   ✅   | ARM 自行测试 我不知道有没有用 PS:神经滤镜已经完美可用         |
 | Adobe PhotoShop Beta    | 25.0.0 20230727.m.2257 47ac892  x64 |  🧐   |   ✅   | ARM 自行测试 我不知道有没有用 支持创意填充/神经滤镜 需要随便登录个账户 |
 | Adobe Acrobat           | 23.003.20244                        |   ✅   |   ✅   |                                         |
 | Adobe Illustrator       | 27.6.1                              |   ✅   |   ✅   |                                         |

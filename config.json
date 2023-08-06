@@ -44,7 +44,8 @@
       "packageName": "com.nektony.App-Cleaner-SIII",
       "injectFile": "NektonyFallManager.framework/Versions/A/NektonyFallManager",
       "supportVersion": [
-        "8.2.1"
+        "8.2.1",
+        "8.2.2"
       ]
     },
     {
