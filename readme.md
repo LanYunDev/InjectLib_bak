@@ -1,5 +1,11 @@
-<!-- TOC -->
+<p align="center" style="font-size: 21px">QiuChenly InjectShell</p>
+<p align="center">Creative & Design</p>
+<p align="center">2023@MacBook Pro</p>
 
+# 概览
+
+<!-- TOC -->
+* [概览](#概览)
 * [使用](#使用)
 * [环境](#环境)
 * [兼容](#兼容)
@@ -9,7 +15,6 @@
 * [目的](#目的)
 * [交流](#交流)
 * [~~停更~~](#停更)
-
 <!-- TOC -->
 
 # 使用
@@ -32,23 +37,28 @@
 
 # 兼容
 
-| App                                            | 版本                                                                                                  | ARM64 | Intel | 特殊要求                            |
-|:-----------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----:|:-----:|:--------------------------------|
-| iShot                                          | 2.3.8                                                                                               |   ✅   |   ✅   |                                 | 
-| Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   |                                 | 
-| Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   |                                 | 
-| Surge 5                                        | 通杀已经被内鬼举办了，RIP。                                                                                     |   ❌   |  ⌛️   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
-| CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | 不要下大陆特供版                        | 
-| MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   |                                 | 
-| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ARM64懒得弄了                       | 
-| 解优2                                            | 1.6.1~通杀                                                                                            |   ✅   |   ✅   |                                 | 
-| Omi录屏专家                                        | 1.3.1~通杀                                                                                            |   ✅   |   ✅   | 需要从Mac AppStore 下载              | 
-| OmniPlayer                                     | 2.1.0~通杀                                                                                            |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| Navicat Premium                                | 16.1.10～通杀                                                                                          |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| Navicat 16 ForOracle                           | 16.2.4～通杀                                                                                           |   ❌   |   ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
-| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75.2 365订阅版                                                                                      |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | 需要从Mac AppStore 下载              |
-| ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   |                                 |
+新增的SIP栏说明:<br>
+
+- ❌: 只能关闭SIP使用<br>
+- ✅: 可以在打开SIP的机器上使用<br>
+
+| App                                            | 版本                                                                                                  | ARM64 | Intel | SIP | 特殊要求                            |
+|:-----------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----:|:-----:|-----|:--------------------------------|
+| iShot                                          | 2.3.8                                                                                               |   ✅   |   ✅   | ❌   |                                 | 
+| Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
+| Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                 | 
+| Surge 5                                        | [2360](https://dl.nssurge.com/mac/v5/Surge-5.2.4-2360-6e09882362aec848cc7dd0f104b7eda2.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
+| CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ❌   | 不要下大陆特供版                        | 
+| MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
+| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ❌   | ARM64懒得弄了                       | 
+| 解优2                                            | 1.6.1~通杀                                                                                            |   ✅   |   ✅   | ❌   |                                 | 
+| Omi录屏专家                                        | 1.3.1~通杀                                                                                            |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              | 
+| OmniPlayer                                     | 2.1.0~通杀                                                                                            |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
+| Navicat Premium                                | 16.1.10～通杀                                                                                          |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
+| Navicat 16 ForOracle                           | 16.2.4～通杀                                                                                           |   ❌   |   ✅   | ❌   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
+| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75.2 365订阅版                                                                                      |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
+| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
+| ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   | ❌   |                                 |
 
 | Adobe 全家桶               | 版本                                  | ARM64 | Intel | 特殊说明                                    |
 |:------------------------|:------------------------------------|:-----:|:-----:|:----------------------------------------|
@@ -61,8 +71,23 @@
 
 # Surge
 
+laoliu，good morning. not good also fine, follow u.
+
 Surge 更新地址: https://www.nssurge.com/mac/v5/appcast-signed-beta.xml <br>
-Surge 最新版地址: https://dl.nssurge.com/mac/v5/Surge-5.2.1-2303-92c83c5d58a046eae6c06c3e82b77afb.zip <br>
+Surge 最新版地址: <br>
+5.2.1: 2303 <br>
+有网友反馈此版本配合早期的注入库可以使用代理订阅，我表示观望。<br>
+https://dl.nssurge.com/mac/v5/Surge-5.2.1-2303-92c83c5d58a046eae6c06c3e82b77afb.zip <br>
+5.2.4: 2360<br>
+此版本不是最新 最新版好像有无法连接网络的bug。安装后切记不要升级。<br>
+https://dl.nssurge.com/mac/v5/Surge-5.2.4-2360-6e09882362aec848cc7dd0f104b7eda2.zip <br>
+
+Surge似乎对Trojan等协议支持的有问题
+订阅的机场基本都超时，实际上都是可以用的。这里建议大家用中转的方式建立一个本地127.0.0.1:
+1087指向ClashX/V2rayN之类的客户端，然后Surge做流量分流之后进行请求。
+
+本地协议选择Socket5，其他协议必失败，我也不知道为什么。T·M·D。
+
 Surge开启MitM和脚本功能，然后:
 
 1. 在你的配置文件中加入例子中提供文件中的Script字段信息:

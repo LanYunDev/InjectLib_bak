@@ -55,8 +55,8 @@ def main
   ret = %x{csrutil status}.chomp
   # System Integrity Protection status: disabled.
   if ret.include?("status: enabled")
-    puts "给老子把你那个b SIP关了先！是不是关SIP犯法？\n要求里写了要先关SIP，能不能认真看看我写的说明？\n如果你看了还没关，说明你确实是SB\n如果你没看说明，那你更SB。\nWhatever，U ARE SB。"
-    return
+    # puts "给老子把你那个b SIP关了先！是不是关SIP犯法？\n要求里写了要先关SIP，能不能认真看看我写的说明？\n如果你看了还没关，说明你确实是SB\n如果你没看说明，那你更SB。\nWhatever，U ARE SB。"
+    # return
   end
 
   puts "====\t自动注入脚本开始执行 ====\n"
@@ -95,6 +95,7 @@ def main
     supportVersion = app['supportVersion']
     supportSubVersion = app['supportSubVersion']
     extraShell = app['extraShell']
+    needCopy2AppDir = app['needCopyToAppDir']
 
     localApp = install_apps.select { |_app| _app['CFBundleIdentifier'] == packageName }
     if localApp.empty? && (appBaseLocate.nil? || !Dir.exist?(appBaseLocate))
@@ -150,7 +151,13 @@ def main
     system sh
     backup = Shellwords.escape(backup)
     dest = Shellwords.escape(dest)
+
     sh = "sudo #{current}/tool/insert_dylib #{current}/tool/libInjectLib.dylib #{backup} #{dest}"
+    unless needCopy2AppDir.nil?
+        print "sudo cp #{current}/tool/libInjectLib.dylib #{appBaseLocate + bridgeFile}libInjectLib.dylib"
+        system "sudo cp #{current}/tool/libInjectLib.dylib #{appBaseLocate + bridgeFile}libInjectLib.dylib"
+        sh = "sudo #{current}/tool/insert_dylib #{appBaseLocate + bridgeFile}libInjectLib.dylib #{backup} #{dest}"
+    end
     # puts sh
     system sh
     sh = "codesign -f -s - --timestamp=none --all-architectures #{dest}"
