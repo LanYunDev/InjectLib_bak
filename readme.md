@@ -75,18 +75,9 @@ laoliu，good morning. not good also fine, follow u.
 
 Surge 更新地址: https://www.nssurge.com/mac/v5/appcast-signed-beta.xml <br>
 Surge 最新版地址: <br>
-5.2.1: 2303 <br>
-有网友反馈此版本配合早期的注入库可以使用代理订阅，我表示观望。<br>
-https://dl.nssurge.com/mac/v5/Surge-5.2.1-2303-92c83c5d58a046eae6c06c3e82b77afb.zip <br>
 5.2.4: 2363<br>
 一切完美。感谢QQ 302***3398 用户无偿提供授权信息。<br>
 https://dl.nssurge.com/mac/v5/Surge-5.2.4-2363-22d1e0411e23b507a94ca4dbb86b7d3c.zip <br>
-
-Surge似乎对Trojan等协议支持的有问题
-订阅的机场基本都超时，实际上都是可以用的。这里建议大家用中转的方式建立一个本地127.0.0.1:
-1087指向ClashX/V2rayN之类的客户端，然后Surge做流量分流之后进行请求。
-
-本地协议选择Socket5，其他协议必失败，我也不知道为什么。T·M·D。
 
 Surge开启MitM和脚本功能，然后:
 
