@@ -79,6 +79,9 @@ Surge 最新版地址: <br>
 一切完美。感谢QQ 302***3398 用户无偿提供授权信息。<br>
 https://dl.nssurge.com/mac/v5/Surge-5.2.4-2363-22d1e0411e23b507a94ca4dbb86b7d3c.zip <br>
 
+执行之前，先执行一遍，千万不要用root权限。<br>
+mkdir ~/Library/Application\ Support/com.nssurge.surge-mac <br>
+
 Surge开启MitM和脚本功能，然后:
 
 1. 在你的配置文件中加入例子中提供文件中的Script字段信息:
