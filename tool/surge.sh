@@ -1,4 +1,6 @@
 xattr -c ~/Library/Application\ Support/com.nssurge.surge-mac
+xattr -w com.nssurge.surge-mac.nsa.3 '{"policy":"eyJkZXZpY2VJRCI6ImNlMjUwMGU5NDQ2NTBhZDdmNmUyZjU4MDI2OGU1NDU0IiwidHlwZSI6InRyaWFsIiwiZXhwaXJlc09uRGF0ZSI6MTY4ODc5MDUzNSwiaXNzdWVEYXRlIjoxNjg3NjAyNTY0LCJwIjoiZTJSQkRtVmJaei95NEl1c0YyWk5sdz09IiwicHJvZHVjdCI6IlNVUkdFTUFDNSJ9","sign":"xd+JgOMOH39bh5jz2PopPqzlreVs92ufvnxLiKn6\/ZSSbtYF24LVgjl1y8g2+yQYLVIesT6k8T5FDcg+Opd98HF4e3A9x2zJQjpvHuCBsIu4UBXojWshKqyvs8SJEbRqarJjymFcefUMDPVKX3G+Zc26fMSCYR04N5Dn6DkYbcNaYFsNn6XWuKjECehyod5UXM8WzFw7xufqoEaBB4NqOFZ7lazDHf5cSBzDFyT1r0wQaN4\/L3WMJBqs74LWS0QXSUlW6yeNt9TUcBF3HSAQFuBSIIPNUKLdyn44Nic7VWocEausfuORhHejuRdt+VmyBiFfwgSjeo9bRYVOZVxrxQ=="}' ~/Library/Application\ Support/com.nssurge.surge-mac
+echo "感谢QQ 3026***398 用户无偿提供授权信息。"
 sudo rm -rf ~/Library/Application Support/com.nssurge.surge-mac
 sudo rm -rf ~/Library/Preferences/com.nssurge.surge-mac.plist
 
@@ -37,6 +39,6 @@ src_info='/Applications/Surge.app/Contents/Info.plist'
 
 codesign -f -s - --all-architectures --deep /Applications/Surge.app/Contents/Library/LaunchServices/com.nssurge.surge-mac.helper
 codesign -f -s - --all-architectures --deep /Applications/Surge.app
-python /Users/qiuchenly/Downloads/SMJobBless/SMJobBlessUtil.py check /Applications/Surge.app
+# python /Users/qiuchenly/Downloads/SMJobBless/SMJobBlessUtil.py check /Applications/Surge.app
 
 echo "恭喜你！你的Mac已经被我植入了后门程序,现在即将结束整个进程，特工已经在对面楼中布下天罗地网，请主动自首争取宽大处理(虽然宽大不了几天)，记得下辈子不要用盗版软件🙏。\n"

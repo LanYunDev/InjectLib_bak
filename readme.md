@@ -47,7 +47,7 @@
 | iShot                                          | 2.3.8                                                                                               |   ✅   |   ✅   | ❌   |                                 | 
 | Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
 | Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                 | 
-| Surge 5                                        | [2360](https://dl.nssurge.com/mac/v5/Surge-5.2.4-2360-6e09882362aec848cc7dd0f104b7eda2.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
+| Surge 5                                        | [2363](https://dl.nssurge.com/mac/v5/Surge-5.2.4-2360-6e09882362aec848cc7dd0f104b7eda2.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
 | CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ❌   | 不要下大陆特供版                        | 
 | MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
 | App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ❌   | ARM64懒得弄了                       | 
@@ -78,9 +78,9 @@ Surge 最新版地址: <br>
 5.2.1: 2303 <br>
 有网友反馈此版本配合早期的注入库可以使用代理订阅，我表示观望。<br>
 https://dl.nssurge.com/mac/v5/Surge-5.2.1-2303-92c83c5d58a046eae6c06c3e82b77afb.zip <br>
-5.2.4: 2360<br>
-此版本不是最新 最新版好像有无法连接网络的bug。安装后切记不要升级。<br>
-https://dl.nssurge.com/mac/v5/Surge-5.2.4-2360-6e09882362aec848cc7dd0f104b7eda2.zip <br>
+5.2.4: 2363<br>
+一切完美。感谢QQ 302***3398 用户无偿提供授权信息。<br>
+https://dl.nssurge.com/mac/v5/Surge-5.2.4-2363-22d1e0411e23b507a94ca4dbb86b7d3c.zip <br>
 
 Surge似乎对Trojan等协议支持的有问题
 订阅的机场基本都超时，实际上都是可以用的。这里建议大家用中转的方式建立一个本地127.0.0.1:
