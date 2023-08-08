@@ -96,6 +96,8 @@ def main
     supportSubVersion = app['supportSubVersion']
     extraShell = app['extraShell']
     needCopy2AppDir = app['needCopyToAppDir']
+    deepSignApp = app['deepSignApp']
+    disableLibraryValidate = app['disableLibraryValidate']
 
     localApp = install_apps.select { |_app| _app['CFBundleIdentifier'] == packageName }
     if localApp.empty? && (appBaseLocate.nil? || !Dir.exist?(appBaseLocate))
@@ -154,19 +156,25 @@ def main
 
     sh = "sudo #{current}/tool/insert_dylib #{current}/tool/libInjectLib.dylib #{backup} #{dest}"
     unless needCopy2AppDir.nil?
-        print "sudo cp #{current}/tool/libInjectLib.dylib #{appBaseLocate + bridgeFile}libInjectLib.dylib"
         system "sudo cp #{current}/tool/libInjectLib.dylib #{appBaseLocate + bridgeFile}libInjectLib.dylib"
         sh = "sudo #{current}/tool/insert_dylib #{appBaseLocate + bridgeFile}libInjectLib.dylib #{backup} #{dest}"
     end
     # puts sh
     system sh
-    sh = "codesign -f -s - --timestamp=none --all-architectures #{dest}"
+    sh = "codesign -f -s - --timestamp=none --all-architectures --deep #{dest}"
     system sh
-    sh = "sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true"
-    system sh
+
+    unless disableLibraryValidate.nil?
+      sh = "sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true"
+      system sh
+    end
 
     unless extraShell.nil?
       system "sudo sh #{current}/tool/" + extraShell
+    end
+
+    unless deepSignApp.nil?
+       system "codesign -f -s - --timestamp=none --all-architectures --deep #{appBaseLocate}"
     end
   }
 end
