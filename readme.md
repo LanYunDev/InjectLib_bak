@@ -47,20 +47,20 @@
 | App                                            | 版本                                                                                                  | ARM64 | Intel | SIP | 特殊要求                            |
 |:-----------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----:|:-----:|-----|:--------------------------------|
 | iShot                                          | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 所有版本                            | 
-| Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
-| MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
-| 解优2                                            | 通杀                                                                                                  |   ✅   |   ✅   | ❌   |                                 | 
-| Omi录屏专家                                        | 通杀                                                                                                  |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              | 
-| OmniPlayer                                     | 通杀                                                                                                  |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
-| Navicat Premium                                | 通杀                                                                                                  |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
-| Navicat 16 ForOracle                           | 通杀                                                                                                  |   ❌   |   ✅   | ❌   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
+| Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                 | 
+| MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                 | 
+| 解优2                                            | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                 | 
+| Omi录屏专家                                        | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载              | 
+| OmniPlayer                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载              |
+| Navicat Premium                                | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载              |
+| Navicat 16 ForOracle                           | 通杀                                                                                                  |   ❌   |   ✅   | ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
 | Surge 5                                        | [2364](https://dl.nssurge.com/mac/v5/Surge-5.2.4-2364-48d42625b1f2f4221bea3b81d12508a1.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
 | Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                 | 
-| CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ❌   | 不要下大陆特供版                        | 
-| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ❌   | ARM64懒得弄了                       | 
+| CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ⏳   | 不要下大陆特供版                        | 
+| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ⏳   | ARM64懒得弄了                       | 
 | Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75.2 365订阅版                                                                                      |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
-| ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   | ❌   |                                 |
+| ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   | ⏳   |                                 |
 
 | Adobe 全家桶               | 版本                                  | ARM64 | Intel | 特殊说明                                    |
 |:------------------------|:------------------------------------|:-----:|:-----:|:----------------------------------------|
