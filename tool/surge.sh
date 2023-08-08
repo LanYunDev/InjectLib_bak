@@ -7,9 +7,9 @@ sudo /bin/rm /Library/LaunchDaemons/com.nssurge.surge-mac.helper.plist
 sudo /bin/rm /Library/PrivilegedHelperTools/com.nssurge.surge-mac.helper
 
 mkdir ~/Library/Application\ Support/com.nssurge.surge-mac
+sudo chown -R $(whoami) ~/Library/Application\ Support/com.nssurge.surge-mac
 xattr -w com.nssurge.surge-mac.nsa.3 '{"policy":"eyJkZXZpY2VJRCI6ImNlMjUwMGU5NDQ2NTBhZDdmNmUyZjU4MDI2OGU1NDU0IiwidHlwZSI6InRyaWFsIiwiZXhwaXJlc09uRGF0ZSI6MTY4ODc5MDUzNSwiaXNzdWVEYXRlIjoxNjg3NjAyNTY0LCJwIjoiZTJSQkRtVmJaei95NEl1c0YyWk5sdz09IiwicHJvZHVjdCI6IlNVUkdFTUFDNSJ9","sign":"xd+JgOMOH39bh5jz2PopPqzlreVs92ufvnxLiKn6\/ZSSbtYF24LVgjl1y8g2+yQYLVIesT6k8T5FDcg+Opd98HF4e3A9x2zJQjpvHuCBsIu4UBXojWshKqyvs8SJEbRqarJjymFcefUMDPVKX3G+Zc26fMSCYR04N5Dn6DkYbcNaYFsNn6XWuKjECehyod5UXM8WzFw7xufqoEaBB4NqOFZ7lazDHf5cSBzDFyT1r0wQaN4\/L3WMJBqs74LWS0QXSUlW6yeNt9TUcBF3HSAQFuBSIIPNUKLdyn44Nic7VWocEausfuORhHejuRdt+VmyBiFfwgSjeo9bRYVOZVxrxQ=="}' ~/Library/Application\ Support/com.nssurge.surge-mac
 echo "感谢QQ 3026***398 用户无偿提供授权信息。"
-
 
 echo "大胆！检测到你在用盗版软件，这可能会危害你的设备！甚至被国家安全局和保密处就地正法，请三思！"
 
