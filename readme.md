@@ -4,7 +4,7 @@
 
 # 关注我
 
-关注我的X平台ID OK？关注落叶喵，关注谢谢喵
+关注我的X平台ID OK？关注落叶喵，关注QiuChenly谢谢喵
 
 [QiuChenly](https://twitter.com/QiuChenly)
 
