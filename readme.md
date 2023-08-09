@@ -2,6 +2,12 @@
 <p align="center">Creative & Design</p>
 <p align="center">2023@MacBook Pro</p>
 
+# 关注我
+
+关注我的X平台ID OK？关注落叶喵，关注谢谢喵
+
+[QiuChenly](https://twitter.com/QiuChenly)
+
 # 概览
 
 <!-- TOC -->
@@ -54,35 +60,34 @@
 | OmniPlayer                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载              |
 | Navicat Premium                                | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载              |
 | Navicat 16 ForOracle                           | 通杀                                                                                                  |   ❌   |   ✅   | ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
-| Surge 5                                        | [2364](https://dl.nssurge.com/mac/v5/Surge-5.2.4-2364-48d42625b1f2f4221bea3b81d12508a1.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
+| Surge 5                                        | [2367](https://dl.nssurge.com/mac/v5/Surge-5.3.0-2367-efa8fcc437b94aa09cff0bad0db6f5d8.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
 | Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                 | 
 | CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ⏳   | 不要下大陆特供版                        | 
-| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ❌   |   ✅   | ⏳   | ARM64懒得弄了                       | 
+| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ✅   |   ✅   | ⏳   | ARM64懒得弄了                       | 
 | Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75.2 365订阅版                                                                                      |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
 | Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
 | ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   | ⏳   |                                 |
 
-| Adobe 全家桶               | 版本                                  | ARM64 | Intel | 特殊说明                                    |
-|:------------------------|:------------------------------------|:-----:|:-----:|:----------------------------------------|
-| Adobe PhotoShop         | 24.7.0                              |   ✅   |   ✅   | ARM 自行测试 我不知道有没有用 PS:神经滤镜已经完美可用         |
-| Adobe PhotoShop Beta    | 25.0.0 20230727.m.2257 47ac892  x64 |  🧐   |   ✅   | ARM 自行测试 我不知道有没有用 支持创意填充/神经滤镜 需要随便登录个账户 |
-| Adobe Acrobat           | 23.003.20244                        |   ✅   |   ✅   |                                         |
-| Adobe Illustrator       | 27.6.1                              |   ✅   |   ✅   |                                         |
-| Adobe Lightroom Classic | 12.4                                |   ❌   |   ❌   | 功能不可用 等后续更新                             |
-| Adobe Premiere Pro      | 23.5                                |   ❔   |   ❔   | M1/x86版本灰度测试 测试报告有效/无效 我没有安装            |
+| Adobe 全家桶               | 版本                                  | ARM64 | Intel | 特殊说明                         |
+|:------------------------|:------------------------------------|:-----:|:-----:|:-----------------------------|
+| Adobe PhotoShop         | 24.7.0                              |   ✅   |   ✅   | PS:神经滤镜已经完美可用                |
+| Adobe PhotoShop Beta    | 25.0.0 20230727.m.2257 47ac892  x64 |   ❌   |   ❌   | 我还没更新 支持创意填充/神经滤镜 需要随便登录个账户  |
+| Adobe Acrobat           | 23.003.20244                        |   ✅   |   ✅   |                              |
+| Adobe Illustrator       | 27.6.1                              |   ✅   |   ✅   |                              |
+| Adobe Lightroom Classic | 12.4                                |   ❌   |   ❌   | 功能不可用 等后续更新                  |
+| Adobe Premiere Pro      | 23.5                                |   ❔   |   ❔   | M1/x86版本灰度测试 测试报告有效/无效 我没有安装 |
 
 # Surge
 
 laoliu，good morning. not good also fine, follow u.
 
 Surge 更新地址: https://www.nssurge.com/mac/v5/appcast-signed-beta.xml <br>
-Surge 最新版地址: <br>
-5.2.4: 2363 <br>
-一切完美。感谢QQ 302***3398 用户无偿提供授权信息。<br>
-https://dl.nssurge.com/mac/v5/Surge-5.2.4-2363-22d1e0411e23b507a94ca4dbb86b7d3c.zip <br>
 
+一切完美。感谢QQ 302***3398 用户无偿提供授权信息。<br>
 目前错误已全部修正。<br>
-之前安装过旧版本的用户进Surge后先卸载一遍Helper帮助程序才能正常挂上代理。<br>
+之前安装过旧版本的用户进Surge后先卸载一遍Helper帮助程序才能正常安装帮助程序挂上代理。点击安装帮助程序没反应的不是破解的问题，能不能先去点一下卸载帮助程序呢？<br>
+如果你因为某些软件缺陷第一反应质疑是破解的问题，那么我只能说“SB 你是对的 都是破解的问题 你说的太对了 完全不是你的问题
+完全不是原始软件的问题”因为跟蠢货争论只会浪费我的生命。<br>
 
 Surge开启MitM和脚本功能，然后: <br>
 

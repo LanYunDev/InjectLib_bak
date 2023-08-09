@@ -24,7 +24,12 @@
       "bridgeFile": "/Contents/Frameworks/",
       "injectFile": "Bugsnag.framework/Versions/A/Bugsnag",
       "needCopyToAppDir": true,
-      "extraShell": "surge.sh"
+      "extraShell": "surge.sh",
+      "supportSubVersion": [
+        "2363",
+        "2364",
+        "2367"
+      ]
     },
     {
       "packageName": "cn.better365.ishot",
