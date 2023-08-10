@@ -50,23 +50,24 @@
 - ❌: 只能关闭SIP使用<br>
 - ✅: 可以在打开SIP的机器上使用<br>
 
-| App                                            | 版本                                                                                                  | ARM64 | Intel | SIP | 特殊要求                            |
-|:-----------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----:|:-----:|-----|:--------------------------------|
-| iShot                                          | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 所有版本                            | 
-| Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                 | 
-| MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                 | 
-| 解优2                                            | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                 | 
-| Omi录屏专家                                        | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载              | 
-| OmniPlayer                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载              |
-| Navicat Premium                                | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载              |
-| Navicat 16 ForOracle                           | 通杀                                                                                                  |   ❌   |   ✅   | ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本 |
-| Surge 5                                        | [2367](https://dl.nssurge.com/mac/v5/Surge-5.3.0-2367-efa8fcc437b94aa09cff0bad0db6f5d8.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》          | 
-| Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                 | 
-| CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ⏳   | 不要下大陆特供版                        | 
-| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ✅   |   ✅   | ⏳   | ARM64懒得弄了                       | 
-| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75.2 365订阅版                                                                                      |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
-| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载              |
-| ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   | ⏳   |                                 |
+| App                                            | 版本                                                                                                  | ARM64 | Intel | SIP | 特殊要求                                      |
+|:-----------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----:|:-----:|-----|:------------------------------------------|
+| iShot                                          | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 所有版本                                      | 
+| Infuse Pro                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                           | 
+| MWEB Pro                                       | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                           | 
+| 解优2                                            | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   |                                           | 
+| Omi录屏专家                                        | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载                        | 
+| OmniPlayer                                     | 通杀                                                                                                  |   ✅   |   ✅   | ⏳   | 需要从Mac AppStore 下载                        |
+| Navicat Premium                                | 通杀                                                                                                  |   ✅   |   ✅   | ✅   | 需要从Mac AppStore 下载                        |
+| Navicat 16 ForOracle                           | 通杀                                                                                                  |   ❌   |   ✅   | ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本           |
+| Elpass                                         | [通杀](https://elpass.app/macos/Elpass-1.5.6-490.zip)                                                 |   ✅   |   ✅   | ✅   | 无法使用云同步 签名后的app通病 无解 搭配Surge脚本可以做到5138年授权 |
+| Surge 5                                        | [2369](https://dl.nssurge.com/mac/v5/Surge-5.3.0-2369-8538ba9fa3e0950a472c340826fd9d42.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》                    | 
+| Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                           | 
+| CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ⏳   | 不要下大陆特供版                                  | 
+| App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ✅   |   ✅   | ⏳   | ARM64懒得弄了                                 | 
+| Microsoft Office Word/PowerPoint/Excel/Outlook | 16.75.2 365订阅版                                                                                      |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载                        |
+| Affinity Photo 2/Designer 2/Publisher 2 全家桶    | 2.1.1                                                                                               |   ✅   |   ✅   | ❌   | 需要从Mac AppStore 下载                        |
+| ProxyMan                                       | 4.9.0                                                                                               |   ✅   |   ✅   | ⏳   |                                           |
 
 | Adobe 全家桶               | 版本                                  | ARM64 | Intel | 特殊说明                         |
 |:------------------------|:------------------------------------|:-----:|:-----:|:-----------------------------|
@@ -76,6 +77,12 @@
 | Adobe Illustrator       | 27.6.1                              |   ✅   |   ✅   |                              |
 | Adobe Lightroom Classic | 12.4                                |   ❌   |   ❌   | 功能不可用 等后续更新                  |
 | Adobe Premiere Pro      | 23.5                                |   ❔   |   ❔   | M1/x86版本灰度测试 测试报告有效/无效 我没有安装 |
+
+# ELPass
+
+hey,bro,what's up?
+
+ElPass: https://elpass.app/macos/appcast-beta.xml
 
 # Surge
 
@@ -99,7 +106,8 @@ Surge开启MitM和脚本功能，然后: <br>
 
 2. [paddle_act.js](Surge%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%2Fpaddle_act.js)这个文件一定要复制到conf文件所在目录中。
 
-3. 记得Https解密打开，并且信任证书，MitM域名加入*.paddleapi.com保存即可。
+3. 记得Https解密打开，并且信任证书，MitM域名加入*.paddleapi.com保存即可。<br>
+   如果要实现五千年授权需要打开增强模式并加入新的域名: api.elpass.app<br>
    ![img.png](imgs/img3.png)
 
 4. 在App中随意输入序列号和邮箱，点击激活后秒激活。

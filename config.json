@@ -28,8 +28,15 @@
       "supportSubVersion": [
         "2363",
         "2364",
-        "2367"
+        "2367",
+        "2369"
       ]
+    },{
+      "packageName": "app.elpass.macos",
+      "appBaseLocate": "/Applications/Elpass.app",
+      "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
+      "needCopyToAppDir": true,
+      "deepSignApp": true
     },
     {
       "packageName": "cn.better365.ishot",
