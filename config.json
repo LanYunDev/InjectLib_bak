@@ -32,14 +32,22 @@
         "2369",
         "2374"
       ]
-    },{
+    },
+    {
       "packageName": "app.elpass.macos",
       "appBaseLocate": "/Applications/Elpass.app",
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
       "needCopyToAppDir": true,
       "deepSignApp": true
-    },{
+    },
+    {
       "packageName": "ws.stash.app.mac",
+      "appBaseLocate": "/Applications/Stash.app",
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle",
+      "needCopyToAppDir": true
+    },
+    {
+      "packageName": "ws.stash.app.mac_SIP开启 暂时无效",
       "appBaseLocate": "/Applications/Stash.app",
       "injectFile": "Sparkle.framework/Versions/B/Sparkle",
       "needCopyToAppDir": true,
