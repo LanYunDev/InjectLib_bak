@@ -38,6 +38,13 @@
       "injectFile": "MMMarkdown.framework/Versions/A/MMMarkdown",
       "needCopyToAppDir": true,
       "deepSignApp": true
+    },{
+      "packageName": "ws.stash.app.mac",
+      "appBaseLocate": "/Applications/Stash.app",
+      "injectFile": "Sparkle.framework/Versions/B/Sparkle",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "extraShell": "stash.sh"
     },
     {
       "packageName": "cn.better365.ishot",
