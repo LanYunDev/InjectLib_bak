@@ -62,7 +62,6 @@
 | Navicat 16 ForOracle                           | 通杀                                                                                                  |   ❌   |   ✅   | ✅   | 需要从Mac AppStore 下载 我下不到ARM64的版本           |
 | Elpass                                         | [通杀](https://elpass.app/macos/Elpass-1.5.6-490.zip)                                                 |   ✅   |   ✅   | ✅   | 无法使用云同步 签名后的app通病 无解 搭配Surge脚本可以做到5138年授权 |
 | Surge 5                                        | [2374](https://dl.nssurge.com/mac/v5/Surge-5.3.0-2374-70a6319d0343bb2ceea2fb364e8582ab.zip)         |   ✅   |   ✅   | ✅   | 年度好戏我愿称之为 《窃听风云8:赛博卧底》                    | 
-| Parallels Desktop                              | [18.3.2](https://download.parallels.com/desktop/v18/18.3.2-53621/ParallelsDesktop-18.3.2-53621.dmg) |   ✅   |   ✅   | ❌   |                                           | 
 | Stash                                          | [2.3.0](https://mac-release-static.stash.ws/Stash-build-221.zip)                                    |   ❌   |   ✅   | ❌   | 无法设置全局代理 不知道哪里有问题 总体体验较差 不如surge          |
 | CleanMyMac X                                   | 4.14.1                                                                                              |   ✅   |   ✅   | ⏳   | 不要下大陆特供版                                  | 
 | App Cleaner & Uninstaller                      | 8.2.2                                                                                               |   ✅   |   ✅   | ⏳   | ARM64懒得弄了                                 | 
